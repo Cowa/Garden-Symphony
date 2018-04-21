@@ -2,6 +2,7 @@ extends KinematicBody2D
 
 var motion = Vector2(0, 0)
 const GRAVITY = 10
+const SPEED = 500
 
 func _ready():
 	# Called every time the node is added to the scene.
@@ -12,9 +13,9 @@ func _physics_process(delta):
 	motion.y = 300
 	
 	if Input.is_action_pressed("ui_right"):
-		motion.x = 100
+		motion.x = SPEED
 	elif Input.is_action_pressed("ui_left"):
-		motion.x = -100
+		motion.x = -SPEED
 	else:
 		motion.x = 0
 	
