@@ -15,6 +15,7 @@ texture = ExtResource( 2 )
 [node name="Guitar" type="Node2D" parent="." index="1"]
 
 editor/display_folded = true
+visible = false
 position = Vector2( -152.999, -1.07545 )
 __meta__ = {
 "_edit_group_": true,

@@ -33,7 +33,7 @@ tracks/0/keys = {
 "values": [ Vector2( 0, 0 ), Vector2( -4.38907, 2.43839 ), Vector2( 4.38907, 3.41373 ), Vector2( -4.38904, 7.31512 ), Vector2( 3.9014, 0.975403 ), Vector2( 0, 0 ) ]
 }
 
-[node name="RhythmBox" type="Node2D" index="0"]
+[node name="RhythmBox" type="Node2D"]
 
 script = ExtResource( 1 )
 _sections_unfolded = [ "Transform" ]

@@ -57,4 +57,5 @@ play_chord_2=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_na
 
 [rendering]
 
+environment/default_clear_color=Color( 0.215668, 0.38444, 0.746094, 1 )
 environment/default_environment="res://default_env.tres"

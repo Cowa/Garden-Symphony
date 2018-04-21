@@ -4,6 +4,7 @@ extends KinematicBody2D
 
 signal seeds_changed
 signal seed_planted
+signal picked_guitar
 signal belt_cursor_changed
 
 # Constant stuff
@@ -23,6 +24,7 @@ var motion = Vector2(0, 0)
 var facing = RIGHT_DIRECTION
 
 var state = {
+	"has_guitar": false,
 	"seeds": {
 		"grass": 0,
 		"flower": 0,
@@ -80,6 +82,7 @@ func picked_item(item):
 	match item.type:
 		"Abstract": print("Picked abstract item, do nothing.")
 		"Seed": picked_seed(item)
+		"Guitar": picked_guitar()
 		_: print("Unknown item...")
 	pass
 
@@ -92,6 +95,10 @@ func picked_seed(seed_):
 
 func picked_grass_seed(grass_seed):
 	increment_seed("grass")
+
+func picked_guitar():
+	state.has_guitar = true
+	emit_signal("picked_guitar")
 
 # Increment nb of `type` seed in inventory
 func increment_seed(type):

@@ -1,6 +1,7 @@
 extends Node2D
 
 signal missed_beat
+signal succeed_beat
 
 onready var Chords = $Sprite/Chords
 onready var Chord0 = $Sprite/Chords/Chord0
@@ -64,6 +65,7 @@ func check_chord(chord):
 		var beat = chord.get_overlapping_bodies()[0]
 		beat.pressed = true
 		beat.hide()
+		emit_signal("succeed_beat")
 	else:
 		Chords.get_node("NoHitChord").play()
 

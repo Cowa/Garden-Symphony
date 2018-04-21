@@ -30,7 +30,5 @@ func change_cursor_position(position):
 	)
 	$Cursor/Tween.start()
 
-#func _process(delta):
-#	# Called every frame. Delta is time since last frame.
-#	# Update game logic here.
-#	pass
+func toggle_guitar_slot():
+	$Guitar.show()
