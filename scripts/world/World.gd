@@ -1,13 +1,13 @@
 extends Node
 
 func _ready():
+	$Player.connect("seeds_changed", $UI/Belt, "update_seeds")
+	$Player.connect("belt_cursor_changed", $UI/Belt, "update_cursor")
+	
 	# Connect pre-existing item
 	for item in $CollectableItems.get_children():
-		item.connect("pickup", self, "_player_picked_item")
+		item.connect("pickup", $Player, "picked_item")
 	pass
-
-func _player_picked_item(item):
-	$Player.picked_item(item)
 
 func _physics_process(delta):
 	if Input.is_action_pressed("ui_reload"):
