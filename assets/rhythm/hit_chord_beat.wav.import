@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/hit_chord_beat.wav-4dea634710b3cd5e9005934cefbd7b30.sample"
+
+[deps]
+
+source_file="res://assets/rhythm/hit_chord_beat.wav"
+source_md5="69c3acb6a43068dd257c6163ca89dcce"
+
+dest_files=[ "res://.import/hit_chord_beat.wav-4dea634710b3cd5e9005934cefbd7b30.sample" ]
+dest_md5="186ddb29edd42c9d25d659cbecd8f246"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

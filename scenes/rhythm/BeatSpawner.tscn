@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/rhythm/BeatSpawner.gd" type="Script" id=1]
+
+[node name="BeatSpawner" type="Node2D"]
+
+script = ExtResource( 1 )
+one_chance_on = 2
+tick_time = 1
+
+[node name="Position" type="Position2D" parent="." index="0"]
+
+[node name="Tick" type="Timer" parent="." index="1"]
+
+process_mode = 1
+wait_time = 1.0
+one_shot = false
+autostart = true
+
+[node name="Beats" type="Container" parent="." index="2"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 40.0
+margin_bottom = 40.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+
+

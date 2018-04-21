@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/no_hit_chord.wav-19a57dfd7bd576781b214e838cf16815.sample"
+
+[deps]
+
+source_file="res://assets/rhythm/no_hit_chord.wav"
+source_md5="febaf053a4a50ad1ac78671d12a73b2a"
+
+dest_files=[ "res://.import/no_hit_chord.wav-19a57dfd7bd576781b214e838cf16815.sample" ]
+dest_md5="638cfbba585bdfb6c15008c664e4edeb"
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

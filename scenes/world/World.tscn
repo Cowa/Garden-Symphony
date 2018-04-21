@@ -1,12 +1,11 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://scripts/world/World.gd" type="Script" id=1]
 [ext_resource path="res://scenes/player/Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://assets/world/ground.png" type="Texture" id=3]
-[ext_resource path="res://scenes/items/Item.tscn" type="PackedScene" id=4]
-[ext_resource path="res://scenes/items/seeds/Seed.tscn" type="PackedScene" id=5]
-[ext_resource path="res://scenes/items/seeds/grass/GrassSeed.tscn" type="PackedScene" id=6]
-[ext_resource path="res://scenes/ui/Belt.tscn" type="PackedScene" id=7]
+[ext_resource path="res://scenes/items/seeds/Seed.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/items/seeds/grass/GrassSeed.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes/ui/Belt.tscn" type="PackedScene" id=6]
 
 [sub_resource type="RectangleShape2D" id=1]
 
@@ -79,34 +78,13 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 
-[node name="Item" parent="Ground/CollectableItems" index="0" instance=ExtResource( 4 )]
+[node name="Seed" parent="Ground/CollectableItems" index="0" instance=ExtResource( 4 )]
 
-position = Vector2( 448, 512 )
+position = Vector2( 640, 518 )
 
-[node name="Item2" parent="Ground/CollectableItems" index="1" instance=ExtResource( 4 )]
+[node name="GrassSeed" parent="Ground/CollectableItems" index="1" instance=ExtResource( 5 )]
 
-position = Vector2( 608, 352 )
-
-[node name="Item3" parent="Ground/CollectableItems" index="2" instance=ExtResource( 4 )]
-
-position = Vector2( 768, 512 )
-
-[node name="Item5" parent="Ground/CollectableItems" index="3" instance=ExtResource( 4 )]
-
-position = Vector2( 1088, 448 )
-
-[node name="Item6" parent="Ground/CollectableItems" index="4" instance=ExtResource( 4 )]
-
-position = Vector2( 1280, 512 )
-
-[node name="Seed" parent="Ground/CollectableItems" index="5" instance=ExtResource( 5 )]
-
-position = Vector2( 640, 480 )
-
-[node name="GrassSeed" parent="Ground/CollectableItems" index="6" instance=ExtResource( 6 )]
-
-position = Vector2( 352, 448 )
-_sections_unfolded = [ "Transform" ]
+position = Vector2( 416, 521 )
 
 [node name="Bounds" type="Node2D" parent="." index="2"]
 
@@ -163,7 +141,7 @@ rotation = 0.0
 scale = Vector2( 1, 1 )
 transform = Transform2D( 1, 0, 0, 1, 0, 0 )
 
-[node name="Belt" parent="UI" index="0" instance=ExtResource( 7 )]
+[node name="Belt" parent="UI" index="0" instance=ExtResource( 6 )]
 
 position = Vector2( 224, 672 )
 _sections_unfolded = [ "Transform", "Z Index" ]
