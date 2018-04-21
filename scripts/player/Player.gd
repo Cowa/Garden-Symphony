@@ -139,4 +139,4 @@ func can_plant():
 func plant_seed():
 	var seed_type = state.belt.items[state.belt.cursor]
 	decrement_seed(seed_type)
-	emit_signal("seed_planted", seed_type)
+	emit_signal("seed_planted", seed_type, $PlantIndicator/Sprite.get_global_position())

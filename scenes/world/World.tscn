@@ -64,7 +64,6 @@ size_flags_vertical = 1
 
 [node name="CollectableItems" type="Container" parent="." index="2"]
 
-editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -100,9 +99,20 @@ position = Vector2( 1280, 512 )
 
 position = Vector2( 640, 480 )
 
-[node name="Seed2" parent="CollectableItems" index="6" instance=ExtResource( 6 )]
+[node name="GrassSeed" parent="CollectableItems" index="6" instance=ExtResource( 6 )]
 
-position = Vector2( 864, 448 )
+position = Vector2( 352, 448 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="GrassSeed2" parent="CollectableItems" index="7" instance=ExtResource( 6 )]
+
+position = Vector2( 544, 448 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="GrassSeed3" parent="CollectableItems" index="8" instance=ExtResource( 6 )]
+
+position = Vector2( 832, 448 )
+_sections_unfolded = [ "Transform" ]
 
 [node name="Bounds" type="Node2D" parent="." index="3"]
 
