@@ -112,7 +112,7 @@ tracks/1/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[node name="PlantedGrass" index="0" instance=ExtResource( 1 )]
+[node name="PlantedGrass" instance=ExtResource( 1 )]
 
 z_index = 1
 script = ExtResource( 2 )

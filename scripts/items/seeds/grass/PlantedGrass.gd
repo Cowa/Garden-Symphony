@@ -11,7 +11,7 @@ func _ready():
 
 func _on_tick():
 	._on_tick()
-	print("tick...")
+	
 	if state.tick == 2:
 		$GrowingState/Animation.play("grow_to_0")
 		state.growing = GROWING_STATE.zero
@@ -23,6 +23,15 @@ func _on_tick():
 		state.growing = GROWING_STATE.two
 		# Last growing state
 		$Tick.queue_free()
+		_on_max_growing()
+
+func seed_rewards():
+	randomize()
+	
+	
+	return [
+		"grass", "grass"
+	]
 
 #func _process(delta):
 #	# Called every frame. Delta is time since last frame.

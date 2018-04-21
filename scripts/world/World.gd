@@ -10,7 +10,7 @@ func _ready():
 	$Player.connect("seed_planted", self, "_seed_planted")
 	
 	# Connect pre-existing item
-	for item in $CollectableItems.get_children():
+	for item in $Ground/CollectableItems.get_children():
 		item.connect("pickup", $Player, "picked_item")
 	
 	$Tick.connect("timeout", self, "_on_tick")
@@ -23,10 +23,18 @@ func _seed_planted(seed_type, position):
 	var seed_instance = PLANTED_SEEDS[seed_type].instance()
 	seed_instance.set_position($Ground.to_local(position))
 	$Ground/PlantedSeeds.add_child(seed_instance)
+	seed_instance.connect("seed_rewards", self, "_on_seed_rewards")
 
 # World ticking
 func _on_tick():
 	pass
+
+func _on_seed_rewards(rewards):
+	for reward in rewards:
+		var instance = reward.instance
+		instance.set_global_position(reward.position)
+		instance.connect("pickup", $Player, "picked_item")
+		$Ground/CollectableItems.add_child(instance)
 
 #func _process(delta):
 #	# Called every frame. Delta is time since last frame.
