@@ -1,12 +1,32 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://scripts/player/Player.gd" type="Script" id=1]
 [ext_resource path="res://assets/player/player.png" type="Texture" id=2]
+[ext_resource path="res://assets/player/plant_indicator.png" type="Texture" id=3]
 
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
 extents = Vector2( 30.9324, 55.3019 )
+
+[sub_resource type="Animation" id=2]
+
+resource_name = "glowing"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0.326 ), Color( 1, 1, 1, 1 ) ]
+}
 
 [node name="Player" type="KinematicBody2D"]
 
@@ -60,5 +80,38 @@ __meta__ = {
 
 position = Vector2( 4, 14 )
 _sections_unfolded = [ "Transform", "Visibility" ]
+
+[node name="PlantIndicator" type="Node2D" parent="." index="4"]
+
+visible = false
+position = Vector2( 46, 60 )
+z_index = 1
+_sections_unfolded = [ "Transform", "Z Index" ]
+
+[node name="Sprite" type="Sprite" parent="PlantIndicator" index="0"]
+
+modulate = Color( 1, 1, 1, 0.852277 )
+position = Vector2( -15.6906, -7.55475 )
+texture = ExtResource( 3 )
+centered = false
+_sections_unfolded = [ "Offset", "Transform", "Visibility" ]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="PlantIndicator" index="1"]
+
+root_node = NodePath("..")
+autoplay = "glowing"
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/glowing = SubResource( 2 )
+blend_times = [  ]
+
+[node name="LeftPosition" type="Position2D" parent="PlantIndicator" index="2"]
+
+position = Vector2( -106.007, -7.84987 )
+
+[node name="RightPosition" type="Position2D" parent="PlantIndicator" index="3"]
+
+position = Vector2( -15.9478, -7.72803 )
 
 

@@ -14,8 +14,7 @@ func render_count(count):
 	else: return str(count)
 
 func update_cursor(belt):
-	var cursor = belt.cursor
-	var selected_item = belt.items[cursor]
+	var selected_item = belt.items[belt.cursor]
 	
 	match selected_item:
 		"guitar": change_cursor_position($Guitar.get_position())
