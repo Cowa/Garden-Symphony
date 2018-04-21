@@ -1,16 +1,21 @@
 extends KinematicBody2D
 
 var motion = Vector2(0, 0)
-const GRAVITY = 10
+
+const GRAVITY = 30
 const SPEED = 500
+const JUMP = -400
+const MAX_FALL_VEL = 400
+
+const UP_DIRECTION = Vector2(0, -1)
 
 func _ready():
-	# Called every time the node is added to the scene.
-	# Initialization here
 	pass
 
 func _physics_process(delta):
-	motion.y = 300
+	motion.y += GRAVITY
+	# Cap fall velocity
+	motion.y = min(motion.y, MAX_FALL_VEL)
 	
 	if Input.is_action_pressed("ui_right"):
 		motion.x = SPEED
@@ -19,9 +24,8 @@ func _physics_process(delta):
 	else:
 		motion.x = 0
 	
-	move_and_slide(motion)
-
-#func _process(delta):
-#	# Called every frame. Delta is time since last frame.
-#	# Update game logic here.
-#	pass
+	if is_on_floor():
+		if Input.is_action_pressed("ui_up"):
+			motion.y = JUMP
+	
+	move_and_slide(motion, UP_DIRECTION)
