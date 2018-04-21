@@ -21,7 +21,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0.156863 ) ]
 }
 
-[node name="PlantedSeed" type="Node2D" index="0"]
+[node name="PlantedSeed" type="Node2D"]
 
 script = ExtResource( 1 )
 
