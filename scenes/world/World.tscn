@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://scripts/world/World.gd" type="Script" id=1]
 [ext_resource path="res://scenes/player/Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://assets/world/ground.png" type="Texture" id=3]
 [ext_resource path="res://scenes/items/Item.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/items/seeds/Seed.tscn" type="PackedScene" id=5]
 
 [sub_resource type="RectangleShape2D" id=1]
 
@@ -25,6 +26,7 @@ position = Vector2( 224, 448 )
 
 [node name="Ground" type="Node2D" parent="." index="1"]
 
+editor/display_folded = true
 position = Vector2( 1280, 640 )
 
 [node name="Sprite" type="Sprite" parent="Ground" index="0"]
@@ -33,6 +35,7 @@ texture = ExtResource( 3 )
 
 [node name="StaticBody" type="StaticBody2D" parent="Ground" index="1"]
 
+editor/display_folded = true
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
@@ -74,17 +77,30 @@ size_flags_vertical = 1
 [node name="Item" parent="CollectableItems" index="0" instance=ExtResource( 4 )]
 
 position = Vector2( 448, 512 )
-type = "Abstract"
 
 [node name="Item2" parent="CollectableItems" index="1" instance=ExtResource( 4 )]
 
 position = Vector2( 608, 352 )
-type = "Abstract"
 
 [node name="Item3" parent="CollectableItems" index="2" instance=ExtResource( 4 )]
 
 position = Vector2( 768, 512 )
-type = "Abstract"
+
+[node name="Item4" parent="CollectableItems" index="3" instance=ExtResource( 4 )]
+
+position = Vector2( 928, 512 )
+
+[node name="Item5" parent="CollectableItems" index="4" instance=ExtResource( 4 )]
+
+position = Vector2( 1088, 448 )
+
+[node name="Item6" parent="CollectableItems" index="5" instance=ExtResource( 4 )]
+
+position = Vector2( 1280, 512 )
+
+[node name="Seed" parent="CollectableItems" index="6" instance=ExtResource( 5 )]
+
+position = Vector2( 640, 480 )
 
 [node name="Bounds" type="Node2D" parent="." index="3"]
 

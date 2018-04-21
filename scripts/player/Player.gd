@@ -1,13 +1,16 @@
 extends KinematicBody2D
 
-var motion = Vector2(0, 0)
-
 const GRAVITY = 30
-const SPEED = 500
+const SPEED = 250
 const JUMP = -400
 const MAX_FALL_VEL = 400
+const LEFT_DIRECTION = Vector2(-1, 0)
+const RIGHT_DIRECTION = Vector2(1, 0)
 
 const UP_DIRECTION = Vector2(0, -1)
+
+var motion = Vector2(0, 0)
+var facing = RIGHT_DIRECTION
 
 ######## Callbacks
 
@@ -21,8 +24,10 @@ func _physics_process(delta):
 	
 	if Input.is_action_pressed("ui_right"):
 		motion.x = SPEED
+		facing = RIGHT_DIRECTION
 	elif Input.is_action_pressed("ui_left"):
 		motion.x = -SPEED
+		facing = LEFT_DIRECTION
 	else:
 		motion.x = 0
 	
