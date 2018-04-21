@@ -9,6 +9,8 @@ const MAX_FALL_VEL = 400
 
 const UP_DIRECTION = Vector2(0, -1)
 
+######## Callbacks
+
 func _ready():
 	pass
 
@@ -29,3 +31,10 @@ func _physics_process(delta):
 			motion.y = JUMP
 	
 	move_and_slide(motion, UP_DIRECTION)
+
+######## Methods
+
+func picked_item(item):
+	match item.type:
+		"Abstract": print("Player picked abstract item, do nothing.")
+		_: print("Unknown item...")

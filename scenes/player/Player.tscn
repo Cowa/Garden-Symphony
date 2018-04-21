@@ -6,7 +6,7 @@
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
-extents = Vector2( 24, 55.3019 )
+extents = Vector2( 30.9324, 55.3019 )
 
 [node name="Player" type="KinematicBody2D" index="0"]
 
@@ -23,9 +23,8 @@ texture = ExtResource( 2 )
 
 [node name="CollisionShape" type="CollisionShape2D" parent="." index="1"]
 
-position = Vector2( -0.21463, -0.0351791 )
-scale = Vector2( 1, 0.993368 )
 shape = SubResource( 1 )
+_sections_unfolded = [ "Transform" ]
 
 [node name="Camera" type="Camera2D" parent="." index="2"]
 
@@ -56,5 +55,10 @@ _sections_unfolded = [ "Limit", "Smoothing" ]
 __meta__ = {
 "_edit_lock_": true
 }
+
+[node name="Belt" type="Position2D" parent="." index="3"]
+
+position = Vector2( 4, 14 )
+_sections_unfolded = [ "Transform", "Visibility" ]
 
 
