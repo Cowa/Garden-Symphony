@@ -18,7 +18,7 @@ extents = Vector2( 1280, 96 )
 custom_solver_bias = 0.0
 extents = Vector2( 32, 288 )
 
-[node name="World" type="Node" index="0"]
+[node name="World" type="Node"]
 
 script = ExtResource( 1 )
 
@@ -28,6 +28,7 @@ position = Vector2( 224, 448 )
 
 [node name="Ground" type="Node2D" parent="." index="1"]
 
+editor/display_folded = true
 position = Vector2( 1280, 640 )
 
 [node name="Sprite" type="Sprite" parent="Ground" index="0"]
@@ -64,6 +65,7 @@ size_flags_vertical = 1
 
 [node name="CollectableItems" type="Container" parent="." index="2"]
 
+editor/display_folded = true
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
@@ -162,6 +164,7 @@ shape = SubResource( 2 )
 
 [node name="UI" type="CanvasLayer" parent="." index="4"]
 
+editor/display_folded = true
 layer = 1
 offset = Vector2( 0, 0 )
 rotation = 0.0
@@ -172,5 +175,12 @@ transform = Transform2D( 1, 0, 0, 1, 0, 0 )
 
 position = Vector2( 224, 672 )
 _sections_unfolded = [ "Transform", "Z Index" ]
+
+[node name="Tick" type="Timer" parent="." index="5"]
+
+process_mode = 1
+wait_time = 3.0
+one_shot = false
+autostart = true
 
 

@@ -12,17 +12,21 @@ func _ready():
 	# Connect pre-existing item
 	for item in $CollectableItems.get_children():
 		item.connect("pickup", $Player, "picked_item")
-	pass
+	
+	$Tick.connect("timeout", self, "_on_tick")
 
 func _physics_process(delta):
 	if Input.is_action_pressed("ui_reload"):
 		get_tree().reload_current_scene()
 
 func _seed_planted(seed_type, position):
-	print(position)
 	var seed_instance = PLANTED_SEEDS[seed_type].instance()
 	seed_instance.set_position($Ground.to_local(position))
 	$Ground/PlantedSeeds.add_child(seed_instance)
+
+# World ticking
+func _on_tick():
+	pass
 
 #func _process(delta):
 #	# Called every frame. Delta is time since last frame.

@@ -55,9 +55,9 @@ func _input(event):
 			motion.y = JUMP
 	
 	# Manage change belt cursor
-	if Input.is_action_pressed("left_belt_cursor"):
+	if Input.is_action_just_pressed("left_belt_cursor"):
 		belt_cursor_to_left()
-	elif Input.is_action_pressed("right_belt_cursor"):
+	elif Input.is_action_just_pressed("right_belt_cursor"):
 		belt_cursor_to_right()
 	
 	# Plant seeds! (if we can)
