@@ -174,7 +174,7 @@ bus = "Master"
 
 stream = ExtResource( 8 )
 volume_db = 0.0
-autoplay = true
+autoplay = false
 mix_target = 0
 bus = "Master"
 

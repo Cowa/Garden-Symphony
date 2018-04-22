@@ -15,3 +15,11 @@ func _tick():
 		var beat = BEAT.instance()
 		beat.motion.y = 300
 		$Beats.add_child(beat)
+
+func start():
+	$Tick.start()
+
+func stop():
+	$Tick.stop()
+	for beat in $Beats.get_children():
+		beat.queue_free()

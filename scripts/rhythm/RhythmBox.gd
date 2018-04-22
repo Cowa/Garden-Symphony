@@ -9,14 +9,14 @@ onready var Chord0 = $Sprite/Chords/Chord0
 onready var Chord1 = $Sprite/Chords/Chord1
 onready var Chord2 = $Sprite/Chords/Chord2
 
+var active = false
+
 func _ready():
-	Chord0.connect("body_exited", self, "_chord0_beat_exited")
-	Chord1.connect("body_exited", self, "_chord1_beat_exited")
-	Chord2.connect("body_exited", self, "_chord2_beat_exited")
-	
 	connect("missed_beat", self, "_on_missed_beat")
 
 func _input(event):
+	if not active: return
+	
 	if Input.is_action_just_pressed("play_chord_0"):
 		Chord0.get_node("Pressed").show()
 		check_chord(Chord0)
@@ -36,8 +36,8 @@ func _input(event):
 	elif Input.is_action_just_released("play_chord_2"):
 		Chord2.get_node("Pressed").hide()
 	
-	if Input.is_action_just_released("quit_guitar"):
-		emit_signal("quit_guitar")
+	if Input.is_action_just_pressed("quit_guitar"):
+		stop_playing()
 
 func _on_missed_beat():
 	$AnimationPlayer.play("missed_beat")
@@ -61,6 +61,21 @@ func beat_exited(beat):
 
 ###
 
+func playing():
+	active = true
+	$Music.play()
+	connect_chords()
+	for beat_spawner in $Sprite/Beats.get_children():
+		beat_spawner.start()
+
+func stop_playing():
+	active = false
+	$Music.stop()
+	disconnect_chords()
+	for beat_spawner in $Sprite/Beats.get_children():
+		beat_spawner.stop()
+	emit_signal("quit_guitar")
+
 ### Check chord if beat on it
 
 func check_chord(chord):
@@ -75,3 +90,15 @@ func check_chord(chord):
 
 func has_beat_on(area):
 	return area.get_overlapping_bodies().size() == 1
+
+### Connect chords beat
+
+func connect_chords():
+	Chord0.connect("body_exited", self, "_chord0_beat_exited")
+	Chord1.connect("body_exited", self, "_chord1_beat_exited")
+	Chord2.connect("body_exited", self, "_chord2_beat_exited")
+
+func disconnect_chords():
+	Chord0.disconnect("body_exited", self, "_chord0_beat_exited")
+	Chord1.disconnect("body_exited", self, "_chord1_beat_exited")
+	Chord2.disconnect("body_exited", self, "_chord2_beat_exited")

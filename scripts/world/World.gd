@@ -51,6 +51,7 @@ func _on_first_seed_planted(seed_type, position):
 	var guitar = GUITAR.instance()
 	
 	# Make guitar falling from the sky #ameno
+	guitar.set_position(Vector2(-1000, 0))
 	$Tween.interpolate_property(
 		guitar, "position",
 		$Player.get_position() + Vector2(250, -500), $Player.get_position() + Vector2(250, 0),
@@ -61,6 +62,7 @@ func _on_first_seed_planted(seed_type, position):
 	add_item(guitar)
 
 func _on_playing_guitar():
+	$UI/RhythmBox.playing()
 	$AnimationPlayer.play("open_rhythm_box")
 
 func _on_succed_beat():
@@ -68,8 +70,11 @@ func _on_succed_beat():
 		seed_._on_tick()
 
 func _on_quit_guitar():
-	$Player.state.playing_guitar = false
 	$AnimationPlayer.play("close_rhythm_box")
+	$Delay.start()
+	yield($Delay, "timeout")
+	$Delay.stop()
+	$Player.state.playing_guitar = false
 
 func add_item(item):
 	item.connect("pickup", $Player, "picked_item")
