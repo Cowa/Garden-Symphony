@@ -92,7 +92,7 @@ tracks/1/keys = {
 "values": [ 1 ]
 }
 
-[node name="World" type="Node" index="0"]
+[node name="World" type="Node"]
 
 script = ExtResource( 1 )
 
@@ -291,10 +291,9 @@ _sections_unfolded = [ "Motion" ]
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/FarBackground" index="0"]
 
-position = Vector2( -170.328, -162.696 )
+position = Vector2( -305.117, -135.696 )
 texture = ExtResource( 10 )
 centered = false
-region_enabled = true
 region_rect = Rect2( 0, 0, 2560, 500 )
 _sections_unfolded = [ "Offset", "Region" ]
 
@@ -307,7 +306,7 @@ _sections_unfolded = [ "Motion" ]
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/FrontBackground" index="0"]
 
-position = Vector2( 392.581, 107.557 )
+position = Vector2( 692.581, 107.557 )
 texture = ExtResource( 11 )
 centered = false
 region_rect = Rect2( 0, 0, 2560, 250 )

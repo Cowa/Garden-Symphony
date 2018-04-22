@@ -7,10 +7,10 @@ path="res://.import/far_background.png-465cfee78be1bf96d48966f80a79a308.stex"
 [deps]
 
 source_file="res://assets/world/far_background.png"
-source_md5="6f9eb942aa91d4dfe05446b4deb44376"
+source_md5="2bd85a595292de32e9c877462785b401"
 
 dest_files=[ "res://.import/far_background.png-465cfee78be1bf96d48966f80a79a308.stex" ]
-dest_md5="b6d675bf4a52a425577acac28a43047d"
+dest_md5="4f8c8fb0d38e690f3421d5175ba38673"
 
 [params]
 
