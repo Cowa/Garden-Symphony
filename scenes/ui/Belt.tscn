@@ -1,14 +1,15 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://scripts/ui/Belt.gd" type="Script" id=1]
 [ext_resource path="res://assets/ui/belt.png" type="Texture" id=2]
-[ext_resource path="res://assets/ui/belt_bag.png" type="Texture" id=3]
-[ext_resource path="res://assets/items/seeds/grass.png" type="Texture" id=4]
-[ext_resource path="res://assets/ui/font_ui.tres" type="DynamicFont" id=5]
-[ext_resource path="res://assets/items/seeds/flower.png" type="Texture" id=6]
-[ext_resource path="res://assets/items/seeds/bush.png" type="Texture" id=7]
-[ext_resource path="res://assets/items/seeds/tree.png" type="Texture" id=8]
-[ext_resource path="res://assets/ui/belt_selector.png" type="Texture" id=9]
+[ext_resource path="res://assets/items/guitar.png" type="Texture" id=3]
+[ext_resource path="res://assets/ui/belt_bag.png" type="Texture" id=4]
+[ext_resource path="res://assets/items/seeds/grass.png" type="Texture" id=5]
+[ext_resource path="res://assets/ui/font_ui.tres" type="DynamicFont" id=6]
+[ext_resource path="res://assets/items/seeds/flower.png" type="Texture" id=7]
+[ext_resource path="res://assets/items/seeds/bush.png" type="Texture" id=8]
+[ext_resource path="res://assets/items/seeds/tree.png" type="Texture" id=9]
+[ext_resource path="res://assets/ui/belt_selector.png" type="Texture" id=10]
 
 [sub_resource type="Animation" id=1]
 
@@ -39,37 +40,17 @@ texture = ExtResource( 2 )
 
 [node name="Guitar" type="Node2D" parent="." index="1"]
 
-editor/display_folded = true
 visible = false
 position = Vector2( -181.098, -2.15617 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="label" type="Label" parent="Guitar" index="0"]
+[node name="Sprite" type="Sprite" parent="Guitar" index="0"]
 
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_left = -19.0
-margin_top = -24.0
-margin_right = 21.0
-margin_bottom = 13.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = true
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "Guitar"
-align = 1
-valign = 1
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-_sections_unfolded = [ "BBCode", "custom_colors" ]
+rotation = 0.785398
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Transform" ]
 
 [node name="Grass" type="Node2D" parent="." index="2"]
 
@@ -80,41 +61,14 @@ __meta__ = {
 
 [node name="Bag" type="Sprite" parent="Grass" index="0"]
 
-texture = ExtResource( 3 )
+texture = ExtResource( 4 )
 
 [node name="Seed" type="Sprite" parent="Grass" index="1"]
 
 position = Vector2( 0, 3 )
-texture = ExtResource( 4 )
+texture = ExtResource( 5 )
 
-[node name="label" type="Label" parent="Grass" index="2"]
-
-visible = false
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_left = -19.0
-margin_top = -24.0
-margin_right = 21.0
-margin_bottom = 13.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = true
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "Grass
-seed"
-align = 1
-valign = 1
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-_sections_unfolded = [ "BBCode", "custom_colors" ]
-
-[node name="count" type="Label" parent="Grass" index="3"]
+[node name="count" type="Label" parent="Grass" index="2"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -130,7 +84,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-custom_fonts/font = ExtResource( 5 )
+custom_fonts/font = ExtResource( 6 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
 custom_colors/font_color_shadow = Color( 0.195313, 0.139618, 0.139618, 0 )
 text = "0"
@@ -149,44 +103,16 @@ __meta__ = {
 
 [node name="Bag" type="Sprite" parent="Flower" index="0"]
 
-modulate = Color( 0.800781, 0.38475, 0.38475, 1 )
 position = Vector2( 1.22845, 0.358489 )
-texture = ExtResource( 3 )
+texture = ExtResource( 4 )
 _sections_unfolded = [ "Visibility" ]
 
 [node name="Seed" type="Sprite" parent="Flower" index="1"]
 
 position = Vector2( 0.228447, 3.35849 )
-texture = ExtResource( 6 )
+texture = ExtResource( 7 )
 
-[node name="label" type="Label" parent="Flower" index="2"]
-
-visible = false
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_left = -20.0
-margin_top = -23.0
-margin_right = 22.0
-margin_bottom = 14.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = true
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "Flower
-seed"
-align = 1
-valign = 1
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-_sections_unfolded = [ "BBCode", "custom_colors" ]
-
-[node name="count" type="Label" parent="Flower" index="3"]
+[node name="count" type="Label" parent="Flower" index="2"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -202,7 +128,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-custom_fonts/font = ExtResource( 5 )
+custom_fonts/font = ExtResource( 6 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
 custom_colors/font_color_shadow = Color( 0.195313, 0.139618, 0.139618, 0 )
 text = "0"
@@ -221,41 +147,14 @@ __meta__ = {
 [node name="Bag" type="Sprite" parent="Bush" index="0"]
 
 position = Vector2( 1.98203, -9.53674e-07 )
-texture = ExtResource( 3 )
+texture = ExtResource( 4 )
 
 [node name="Seed" type="Sprite" parent="Bush" index="1"]
 
 position = Vector2( 0.982025, 3 )
-texture = ExtResource( 7 )
+texture = ExtResource( 8 )
 
-[node name="label" type="Label" parent="Bush" index="2"]
-
-visible = false
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_left = -23.0
-margin_top = -24.0
-margin_right = 26.0
-margin_bottom = 13.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = true
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "Bush
-seed"
-align = 1
-valign = 1
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-_sections_unfolded = [ "BBCode", "custom_colors" ]
-
-[node name="count" type="Label" parent="Bush" index="3"]
+[node name="count" type="Label" parent="Bush" index="2"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -271,7 +170,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-custom_fonts/font = ExtResource( 5 )
+custom_fonts/font = ExtResource( 6 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
 custom_colors/font_color_shadow = Color( 0.195313, 0.139618, 0.139618, 0 )
 text = "0"
@@ -291,41 +190,14 @@ __meta__ = {
 [node name="Bag" type="Sprite" parent="Tree" index="0"]
 
 position = Vector2( -1.17276, -0.540359 )
-texture = ExtResource( 3 )
+texture = ExtResource( 4 )
 
 [node name="Seed" type="Sprite" parent="Tree" index="1"]
 
 position = Vector2( -1.17277, 2.45964 )
-texture = ExtResource( 8 )
+texture = ExtResource( 9 )
 
-[node name="label" type="Label" parent="Tree" index="2"]
-
-visible = false
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 0.0
-margin_left = -23.0
-margin_top = -24.0
-margin_right = 26.0
-margin_bottom = 13.0
-rect_pivot_offset = Vector2( 0, 0 )
-rect_clip_content = true
-mouse_filter = 0
-mouse_default_cursor_shape = 0
-size_flags_horizontal = 1
-size_flags_vertical = 1
-custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "Tree
-seed"
-align = 1
-valign = 1
-percent_visible = 1.0
-lines_skipped = 0
-max_lines_visible = -1
-_sections_unfolded = [ "BBCode", "custom_colors" ]
-
-[node name="count" type="Label" parent="Tree" index="3"]
+[node name="count" type="Label" parent="Tree" index="2"]
 
 anchor_left = 0.0
 anchor_top = 0.0
@@ -341,7 +213,7 @@ mouse_filter = 2
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 4
-custom_fonts/font = ExtResource( 5 )
+custom_fonts/font = ExtResource( 6 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
 custom_colors/font_color_shadow = Color( 0.195313, 0.139618, 0.139618, 0 )
 text = "0"
@@ -355,7 +227,7 @@ _sections_unfolded = [ "custom_colors" ]
 
 modulate = Color( 0.910938, 0.835572, 0.825568, 1 )
 position = Vector2( -181, 39 )
-texture = ExtResource( 9 )
+texture = ExtResource( 10 )
 _sections_unfolded = [ "Transform", "Visibility" ]
 
 [node name="Tween" type="Tween" parent="Cursor" index="0"]

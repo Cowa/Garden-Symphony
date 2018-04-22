@@ -7,10 +7,10 @@ path="res://.import/beat.png-6342b84aa5d11b18b5204a75fe6a2d86.stex"
 [deps]
 
 source_file="res://assets/rhythm/beat.png"
-source_md5="7ff8aaf1839075c65144502805eb4a34"
+source_md5="0e83029a1cf0a8267f611e8906e7fc57"
 
 dest_files=[ "res://.import/beat.png-6342b84aa5d11b18b5204a75fe6a2d86.stex" ]
-dest_md5="1ec47bd00b8bbf7a8d483d31a465a67c"
+dest_md5="ba39716d032ae3a89cf7d67bed6f7e72"
 
 [params]
 

@@ -99,6 +99,11 @@ func _physics_process(delta):
 	
 	# Plant indicator
 	process_plant_indicator()
+	
+	if guitar_is_selected():
+		$Sprite/Guitar.show()
+	else:
+		$Sprite/Guitar.hide()
 
 ######## Methods
 
@@ -185,7 +190,7 @@ func plant_seed():
 	emit_signal("seed_planted", seed_type, $PlantIndicator/Sprite.get_global_position())
 
 func guitar_is_selected():
-	return state.belt.items[state.belt.cursor] == "guitar"
+	return state.belt.items[state.belt.cursor] == "guitar" and state.has_guitar
 
 func play_guitar():
 	emit_signal("play_guitar")

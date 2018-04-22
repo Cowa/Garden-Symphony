@@ -9,6 +9,7 @@ type = "Guitar"
 
 [node name="Sprite" parent="." index="0"]
 
+rotation = 0.785398
 texture = ExtResource( 2 )
 
 

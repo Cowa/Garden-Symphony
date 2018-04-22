@@ -7,10 +7,10 @@ path="res://.import/rhythmbox.png-925a846ac19c8139973a632a5a86faf6.stex"
 [deps]
 
 source_file="res://assets/rhythm/rhythmbox.png"
-source_md5="2687eb7026cf5631aee0350fa08681d5"
+source_md5="f0a160f638b20b522d178247a9e896fe"
 
 dest_files=[ "res://.import/rhythmbox.png-925a846ac19c8139973a632a5a86faf6.stex" ]
-dest_md5="d613967e2946ca2022031d0c0670a1c4"
+dest_md5="aa8b8805cc00c1f34fb3a6590ec789c9"
 
 [params]
 

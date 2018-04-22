@@ -7,10 +7,10 @@ path="res://.import/guitar.png-d56f199ff941c1ccfef1e813cb3869fe.stex"
 [deps]
 
 source_file="res://assets/items/guitar.png"
-source_md5="72be0010291d9ccf1c628fc07f438d18"
+source_md5="3decc5425d18a9ab4e34db6ff847b4c0"
 
 dest_files=[ "res://.import/guitar.png-d56f199ff941c1ccfef1e813cb3869fe.stex" ]
-dest_md5="4618819e3858248e92404d3940086a74"
+dest_md5="f291844a3112564176f249fffedbdd45"
 
 [params]
 

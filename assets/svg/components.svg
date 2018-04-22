@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="192.37393"
-     inkscape:cy="343.93426"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="1439.6154"
+     inkscape:cy="295.6638"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:measure-start="2058.57,625.714"
      inkscape:measure-end="2058.57,617.143"
@@ -136,7 +136,6 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="ground"
-     sodipodi:insensitive="true"
      style="display:inline">
     <rect
        style="opacity:1;fill:#c7afcc;fill-opacity:1;stroke:none;stroke-width:5.53458977;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -165,16 +164,6 @@
        height="10"
        x="32.505951"
        y="248.61903"
-       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\world\ground.png"
-       inkscape:export-xdpi="54"
-       inkscape:export-ydpi="54" />
-    <rect
-       style="opacity:1;fill:#b28eba;fill-opacity:1;stroke:none;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect5277-1"
-       width="10"
-       height="10"
-       x="171.1369"
-       y="274.6131"
        inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\world\ground.png"
        inkscape:export-xdpi="54"
        inkscape:export-ydpi="54" />
@@ -232,17 +221,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer7"
-     inkscape:label="player">
-    <rect
-       style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.3394047;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect6040"
-       width="18.107931"
-       height="34.104782"
-       x="26.20977"
-       y="184.1817"
-       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\player\player.png"
-       inkscape:export-xdpi="54"
-       inkscape:export-ydpi="54" />
+     inkscape:label="player"
+     sodipodi:insensitive="true">
     <g
        id="g7081"
        transform="matrix(0.14157102,0,0,0.14157102,20.098923,178.60618)"
@@ -564,7 +544,7 @@
        height="5.8678126"
        width="2.3292978"
        id="rect5535"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.64664578;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#8181e5;fill-opacity:1;stroke:none;stroke-width:1.64664578;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower.png"
        inkscape:export-xdpi="54"
        inkscape:export-ydpi="54" />
@@ -576,7 +556,7 @@
        height="6.1986542"
        width="2.4078214"
        id="rect5537"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.72072065;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#8181e5;fill-opacity:1;stroke:none;stroke-width:1.72072065;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower.png"
        inkscape:export-xdpi="54"
        inkscape:export-ydpi="54" />
@@ -588,7 +568,7 @@
        height="4.7510052"
        width="2.8015301"
        id="rect5541"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.62495136;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#8181e5;fill-opacity:1;stroke:none;stroke-width:1.62495136;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower.png"
        inkscape:export-xdpi="54"
        inkscape:export-ydpi="54" />
@@ -1332,7 +1312,8 @@
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="tree_grow_0"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        sodipodi:type="star"
        style="opacity:1;fill:#facc7e;fill-opacity:1;stroke:none;stroke-width:0.72899997;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.72899999, 0.72899999;stroke-dashoffset:0;stroke-opacity:1"
@@ -1965,82 +1946,7 @@
            height="110.67353"
            x="2093.7095"
            y="475.78122" /></flowRegion><flowPara
-         id="flowPara6909"></flowPara></flowRoot>    <g
-       id="g6968"
-       transform="matrix(0.77452199,0,0,0.77452199,126.95026,18.629814)"
-       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\rhythmbox.png"
-       inkscape:export-xdpi="54"
-       inkscape:export-ydpi="54">
-      <rect
-         y="125.88378"
-         x="545.20221"
-         height="29.282375"
-         width="31.550232"
-         id="rect6901"
-         style="opacity:1;fill:#4c4c4c;fill-opacity:1;stroke:#0c0c0c;stroke-width:1.89999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         id="text6913"
-         y="148.90894"
-         x="553.97644"
-         style="font-style:normal;font-weight:normal;font-size:22.50844383px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.56271106"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.56271106"
-           y="148.90894"
-           x="553.97644"
-           id="tspan6911"
-           sodipodi:role="line">1</tspan></text>
-    </g>
-    <g
-       id="g6973"
-       transform="matrix(0.77452199,0,0,0.77452199,145.0873,18.164003)"
-       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\rhythmbox.png"
-       inkscape:export-xdpi="54"
-       inkscape:export-ydpi="54">
-      <rect
-         y="126.4852"
-         x="622.81116"
-         height="29.282377"
-         width="31.550232"
-         id="rect6901-6"
-         style="opacity:1;fill:#4c4c4c;fill-opacity:1;stroke:#0c0c0c;stroke-width:1.89999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         id="text6913-8"
-         y="149.51036"
-         x="631.58539"
-         style="font-style:normal;font-weight:normal;font-size:22.50844383px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.56271106"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.56271106"
-           y="149.51036"
-           x="631.58539"
-           id="tspan6911-6"
-           sodipodi:role="line">2</tspan></text>
-    </g>
-    <g
-       id="g6978"
-       transform="matrix(0.77452199,0,0,0.77452199,163.75353,18.681342)"
-       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\rhythmbox.png"
-       inkscape:export-xdpi="54"
-       inkscape:export-ydpi="54">
-      <rect
-         y="125.81725"
-         x="700.42004"
-         height="29.282377"
-         width="31.550232"
-         id="rect6901-6-0"
-         style="opacity:1;fill:#4c4c4c;fill-opacity:1;stroke:#0c0c0c;stroke-width:1.89999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         id="text6913-8-9"
-         y="148.84241"
-         x="709.19427"
-         style="font-style:normal;font-weight:normal;font-size:22.50844383px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.56271106"
-         xml:space="preserve"><tspan
-           style="stroke-width:0.56271106"
-           y="148.84241"
-           x="709.19427"
-           id="tspan6911-6-4"
-           sodipodi:role="line">3</tspan></text>
-    </g>
-    <flowRoot
+         id="flowPara6909"></flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot6957"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -2051,5 +1957,53 @@
            height="205.71428"
            x="1992.8572"
            y="448.23398" /></flowRegion><flowPara
-         id="flowPara6963"></flowPara></flowRoot>  </g>
+         id="flowPara6963"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7191"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#edb455;fill-opacity:1;stroke:none"
+       transform="matrix(0.67936979,0,0,0.67936979,-872.1329,-133.46944)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\rhythmbox.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54"><flowRegion
+         id="flowRegion7193"
+         style="fill:#edb455;fill-opacity:1"><rect
+           id="rect7195"
+           width="64.285713"
+           height="58.57143"
+           x="2095.7144"
+           y="298.23398"
+           style="fill:#edb455;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara7197">1</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7191-8"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#edb455;fill-opacity:1;stroke:none"
+       transform="matrix(0.67936978,0,0,0.67936978,-792.82785,-133.70155)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\rhythmbox.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54"><flowRegion
+         id="flowRegion7193-6"
+         style="fill:#edb455;fill-opacity:1"><rect
+           id="rect7195-8"
+           width="64.285713"
+           height="58.57143"
+           x="2095.7144"
+           y="298.23398"
+           style="fill:#edb455;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara7197-6">2</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7191-8-7"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#edb455;fill-opacity:1;stroke:none"
+       transform="matrix(0.67936978,0,0,0.67936978,-713.21003,-134.10963)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\rhythmbox.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54"><flowRegion
+         id="flowRegion7193-6-7"
+         style="fill:#edb455;fill-opacity:1"><rect
+           id="rect7195-8-0"
+           width="64.285713"
+           height="58.57143"
+           x="2095.7144"
+           y="298.23398"
+           style="fill:#edb455;fill-opacity:1" /></flowRegion><flowPara
+         id="flowPara7247">3</flowPara></flowRoot>  </g>
 </svg>
