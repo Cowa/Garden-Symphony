@@ -48,7 +48,10 @@ func _ready():
 
 func _input(event):
 	# If playing guitar, no input allowed here
-	if state.playing_guitar: return
+	if state.playing_guitar: 
+		if $AnimationPlayer.current_animation != "playing_guitar":
+				$AnimationPlayer.play("playing_guitar")
+		return
 	
 	if Input.is_action_pressed("ui_right"):
 		motion.x = SPEED
@@ -195,3 +198,7 @@ func guitar_is_selected():
 func play_guitar():
 	emit_signal("play_guitar")
 	state.playing_guitar = true
+
+func stop_playing():
+	state.playing_guitar = false
+	$AnimationPlayer.play("setup")

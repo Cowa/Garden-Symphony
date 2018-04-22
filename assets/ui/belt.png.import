@@ -7,10 +7,10 @@ path="res://.import/belt.png-8a1078060239e4d6b1de8fd0146835f9.stex"
 [deps]
 
 source_file="res://assets/ui/belt.png"
-source_md5="799dcb31a281effc756f50354256d070"
+source_md5="9061da0793efd20126afa69171c91d1a"
 
 dest_files=[ "res://.import/belt.png-8a1078060239e4d6b1de8fd0146835f9.stex" ]
-dest_md5="24e9b99c07344cdb3d4941e04db547cf"
+dest_md5="382ad684af1b05890961f1645d9be046"
 
 [params]
 

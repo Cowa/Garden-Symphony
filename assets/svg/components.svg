@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="523.92143"
-     inkscape:cy="324.0631"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="1409.1599"
+     inkscape:cy="335.85451"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer16"
+     inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:measure-start="2058.57,625.714"
      inkscape:measure-end="2058.57,617.143"
@@ -58,8 +58,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="bg_far"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <path
        sodipodi:type="star"
        style="opacity:1;fill:#9fc7e0;fill-opacity:1;stroke:none;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -108,6 +107,61 @@
        cx="41.694046"
        cy="27.871647"
        r="21.381561"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\world\far_background.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="display:inline;opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.72899997;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.72900001, 0.72900001;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6670-1"
+       width="94.078873"
+       height="22.45064"
+       x="95.891861"
+       y="14.711983"
+       rx="10"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\world\far_background.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="display:inline;opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.72899997;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.72900002, 0.72900002;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6670-1-2"
+       width="94.078873"
+       height="22.45064"
+       x="199.14465"
+       y="65.941154"
+       rx="10"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\world\far_background.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="display:inline;opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.72899997;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.72900003, 0.72900003;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6670-1-2-3"
+       width="94.078873"
+       height="22.45064"
+       x="328.74152"
+       y="19.03969"
+       rx="10"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\world\far_background.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="display:inline;opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.72899997;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.72900004, 0.72900004;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6670-1-2-3-1"
+       width="94.078873"
+       height="22.45064"
+       x="434.56952"
+       y="59.637798"
+       rx="10"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\world\far_background.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="display:inline;opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.72899997;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.72900003, 0.72900003;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6670-1-2-1"
+       width="94.078873"
+       height="22.45064"
+       x="-28.865114"
+       y="64.47551"
+       rx="10"
        inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\world\far_background.png"
        inkscape:export-xdpi="54"
        inkscape:export-ydpi="54" />
@@ -1667,23 +1721,6 @@
        y="-46.278198"
        transform="matrix(-0.86995046,-0.49313913,-0.89282451,0.45040471,0,0)"
        inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_2.png"
-       inkscape:export-xdpi="54"
-       inkscape:export-ydpi="54" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer11"
-     inkscape:label="cloud"
-     sodipodi:insensitive="true">
-    <rect
-       style="display:inline;opacity:1;fill:#facc7e;fill-opacity:1;stroke:none;stroke-width:0.72899997;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.729, 0.729;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect6670"
-       width="94.078873"
-       height="22.45064"
-       x="58.793903"
-       y="10.98599"
-       rx="10"
-       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\world\cloud.png"
        inkscape:export-xdpi="54"
        inkscape:export-ydpi="54" />
   </g>

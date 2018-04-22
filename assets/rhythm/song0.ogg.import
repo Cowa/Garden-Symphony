@@ -1,0 +1,18 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/song0.ogg-9b31a00368c9decc7d014eff26730f55.oggstr"
+
+[deps]
+
+source_file="res://assets/rhythm/song0.ogg"
+source_md5="7a4a82c63e6c6145ef97f88aa09ff009"
+
+dest_files=[ "res://.import/song0.ogg-9b31a00368c9decc7d014eff26730f55.oggstr" ]
+dest_md5="439bb3913235ce0b1efa5ac41d8f4476"
+
+[params]
+
+loop=false
+loop_offset=0

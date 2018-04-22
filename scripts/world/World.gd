@@ -30,8 +30,9 @@ func _ready():
 	$UI/RhythmBox.connect("quit_guitar", self, "_on_quit_guitar")
 
 func _physics_process(delta):
-	if Input.is_action_pressed("ui_reload"):
-		get_tree().reload_current_scene()
+#	if Input.is_action_pressed("ui_reload"):
+#		get_tree().reload_current_scene()
+	pass
 
 func _seed_planted(seed_type, position):
 	var seed_instance = PLANTED_SEEDS[seed_type].instance()
@@ -56,8 +57,8 @@ func _on_first_seed_planted(seed_type, position):
 	guitar.set_position(Vector2(-1000, 0))
 	$Tween.interpolate_property(
 		guitar, "position",
-		$Player.get_position() + Vector2(250, -500), $Player.get_position() + Vector2(250, 0),
-		1.5, Tween.TRANS_LINEAR, Tween.EASE_IN_OUT, 1.0
+		$Player.get_position() + Vector2(70, -500), $Player.get_position() + Vector2(70, 0),
+		1.0, Tween.TRANS_LINEAR, Tween.EASE_IN_OUT, 1.0
 	)
 	$Tween.start()
 	
@@ -79,7 +80,7 @@ func _on_quit_guitar():
 	$Delay.start()
 	yield($Delay, "timeout")
 	$Delay.stop()
-	$Player.state.playing_guitar = false
+	$Player.stop_playing()
 
 func add_item(item):
 	item.connect("pickup", $Player, "picked_item")

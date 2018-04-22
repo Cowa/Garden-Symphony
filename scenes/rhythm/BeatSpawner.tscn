@@ -32,4 +32,11 @@ mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
 
+[node name="Delay" type="Timer" parent="." index="3"]
+
+process_mode = 1
+wait_time = 2.0
+one_shot = false
+autostart = false
+
 

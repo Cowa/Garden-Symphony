@@ -1,18 +1,14 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://scripts/world/World.gd" type="Script" id=1]
 [ext_resource path="res://scenes/player/Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://assets/world/ground.png" type="Texture" id=3]
 [ext_resource path="res://scenes/items/seeds/grass/GrassSeed.tscn" type="PackedScene" id=4]
-[ext_resource path="res://scenes/items/seeds/flower/FlowerSeed.tscn" type="PackedScene" id=5]
-[ext_resource path="res://scenes/items/seeds/Bush/BushSeed.tscn" type="PackedScene" id=6]
-[ext_resource path="res://scenes/items/seeds/tree/TreeSeed.tscn" type="PackedScene" id=7]
-[ext_resource path="res://scenes/items/Guitar.tscn" type="PackedScene" id=8]
-[ext_resource path="res://scenes/rhythm/RhythmBox.tscn" type="PackedScene" id=9]
-[ext_resource path="res://scenes/ui/Belt.tscn" type="PackedScene" id=10]
-[ext_resource path="res://assets/world/far_background.png" type="Texture" id=11]
-[ext_resource path="res://assets/world/background.png" type="Texture" id=12]
-[ext_resource path="res://assets/world/bird_ambient.ogg" type="AudioStream" id=13]
+[ext_resource path="res://scenes/rhythm/RhythmBox.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes/ui/Belt.tscn" type="PackedScene" id=6]
+[ext_resource path="res://assets/world/far_background.png" type="Texture" id=7]
+[ext_resource path="res://assets/world/background.png" type="Texture" id=8]
+[ext_resource path="res://assets/world/bird_ambient.ogg" type="AudioStream" id=9]
 
 [sub_resource type="RectangleShape2D" id=1]
 
@@ -24,7 +20,7 @@ extents = Vector2( 1280, 80.0248 )
 custom_solver_bias = 0.0
 extents = Vector2( 32, 288 )
 
-[sub_resource type="Animation" id=5]
+[sub_resource type="Animation" id=3]
 
 resource_name = "close_rhythm_box"
 length = 1.0
@@ -43,9 +39,8 @@ tracks/0/keys = {
 "values": [ Vector2( 352, 0 ), Vector2( 352, -478 ) ]
 }
 
-[sub_resource type="Animation" id=3]
+[sub_resource type="Animation" id=4]
 
-resource_name = "open_rhythm_box"
 length = 1.0
 loop = false
 step = 0.1
@@ -62,9 +57,8 @@ tracks/0/keys = {
 "values": [ Vector2( 352, -483 ), Vector2( 340, -19 ) ]
 }
 
-[sub_resource type="Animation" id=4]
+[sub_resource type="Animation" id=5]
 
-resource_name = "setup"
 length = 0.1
 loop = false
 step = 0.1
@@ -87,7 +81,7 @@ script = ExtResource( 1 )
 
 [node name="Player" parent="." index="0" instance=ExtResource( 2 )]
 
-position = Vector2( 224, 448 )
+position = Vector2( 224, 514 )
 
 [node name="Ground" type="Node2D" parent="." index="1"]
 
@@ -144,23 +138,7 @@ size_flags_vertical = 1
 
 [node name="GrassSeed" parent="Ground/CollectableItems" index="0" instance=ExtResource( 4 )]
 
-position = Vector2( 416, 521 )
-
-[node name="FlowerSeed" parent="Ground/CollectableItems" index="1" instance=ExtResource( 5 )]
-
-position = Vector2( 584.068, 508.542 )
-
-[node name="BushSeed" parent="Ground/CollectableItems" index="2" instance=ExtResource( 6 )]
-
-position = Vector2( 495.954, 478.331 )
-
-[node name="TreeSeed" parent="Ground/CollectableItems" index="3" instance=ExtResource( 7 )]
-
-position = Vector2( 527.851, 526.559 )
-
-[node name="Item" parent="Ground/CollectableItems" index="4" instance=ExtResource( 8 )]
-
-position = Vector2( 330.364, 484.716 )
+position = Vector2( 519, 534 )
 
 [node name="Bounds" type="Node2D" parent="." index="2"]
 
@@ -217,13 +195,13 @@ scale = Vector2( 1, 1 )
 transform = Transform2D( 1, 0, 0, 1, 0, 0 )
 _sections_unfolded = [ "Pause" ]
 
-[node name="RhythmBox" parent="UI" index="0" instance=ExtResource( 9 )]
+[node name="RhythmBox" parent="UI" index="0" instance=ExtResource( 5 )]
 
 position = Vector2( 352, -488 )
 
-[node name="Belt" parent="UI" index="1" instance=ExtResource( 10 )]
+[node name="Belt" parent="UI" index="1" instance=ExtResource( 6 )]
 
-position = Vector2( 241, 639 )
+position = Vector2( 256, 639 )
 _sections_unfolded = [ "Transform", "Z Index" ]
 
 [node name="Tick" type="Timer" parent="." index="4"]
@@ -256,9 +234,9 @@ autoplay = "setup"
 playback_process_mode = 1
 playback_default_blend_time = 0.0
 playback_speed = 1.0
-anims/close_rhythm_box = SubResource( 5 )
-anims/open_rhythm_box = SubResource( 3 )
-anims/setup = SubResource( 4 )
+anims/close_rhythm_box = SubResource( 3 )
+anims/open_rhythm_box = SubResource( 4 )
+anims/setup = SubResource( 5 )
 blend_times = [  ]
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="." index="8"]
@@ -286,7 +264,7 @@ _sections_unfolded = [ "Motion" ]
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/FarBackground" index="0"]
 
 position = Vector2( -305.117, -135.696 )
-texture = ExtResource( 11 )
+texture = ExtResource( 7 )
 centered = false
 region_rect = Rect2( 0, 0, 2560, 500 )
 _sections_unfolded = [ "Offset", "Region" ]
@@ -304,14 +282,14 @@ _sections_unfolded = [ "Motion" ]
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/FrontBackground" index="0"]
 
 position = Vector2( 692.581, 107.557 )
-texture = ExtResource( 12 )
+texture = ExtResource( 8 )
 centered = false
 region_rect = Rect2( 0, 0, 2560, 250 )
 _sections_unfolded = [ "Offset", "Region" ]
 
 [node name="BirdAmbient" type="AudioStreamPlayer" parent="." index="9"]
 
-stream = ExtResource( 13 )
+stream = ExtResource( 9 )
 volume_db = 0.0
 autoplay = true
 mix_target = 0

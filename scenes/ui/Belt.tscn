@@ -30,7 +30,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 1 ), Color( 0.785156, 0.557718, 0.527527, 1 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[node name="Belt" type="Node2D"]
+[node name="Belt" type="Node2D" index="0"]
 
 script = ExtResource( 1 )
 
@@ -40,8 +40,9 @@ texture = ExtResource( 2 )
 
 [node name="Guitar" type="Node2D" parent="." index="1"]
 
+editor/display_folded = true
 visible = false
-position = Vector2( -181.098, -2.15617 )
+position = Vector2( -196.098, -2.15617 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -54,10 +55,8 @@ _sections_unfolded = [ "Transform" ]
 
 [node name="Grass" type="Node2D" parent="." index="2"]
 
-position = Vector2( -93.2905, -1.07545 )
-__meta__ = {
-"_edit_lock_": true
-}
+editor/display_folded = true
+position = Vector2( -110.29, -1.07545 )
 
 [node name="Bag" type="Sprite" parent="Grass" index="0"]
 
@@ -96,7 +95,8 @@ _sections_unfolded = [ "custom_colors" ]
 
 [node name="Flower" type="Node2D" parent="." index="3"]
 
-position = Vector2( -4.51895, -1.43394 )
+editor/display_folded = true
+position = Vector2( -20.5189, -1.43394 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -139,7 +139,8 @@ max_lines_visible = -1
 
 [node name="Bush" type="Node2D" parent="." index="4"]
 
-position = Vector2( 81.7275, -1.07545 )
+editor/display_folded = true
+position = Vector2( 67.7275, -1.07545 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -182,7 +183,8 @@ _sections_unfolded = [ "custom_colors" ]
 
 [node name="Tree" type="Node2D" parent="." index="5"]
 
-position = Vector2( 177.882, -0.535091 )
+editor/display_folded = true
+position = Vector2( 160.882, -0.535091 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -226,7 +228,7 @@ _sections_unfolded = [ "custom_colors" ]
 [node name="Cursor" type="Sprite" parent="." index="6"]
 
 modulate = Color( 0.910938, 0.835572, 0.825568, 1 )
-position = Vector2( -181, 39 )
+position = Vector2( -197, 47 )
 texture = ExtResource( 10 )
 _sections_unfolded = [ "Transform", "Visibility" ]
 

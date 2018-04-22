@@ -7,10 +7,10 @@ path="res://.import/belt_selector.png-1858ffecf9a9142fea781230fcffe1bd.stex"
 [deps]
 
 source_file="res://assets/ui/belt_selector.png"
-source_md5="99e80ba1a43177c7c10df440bc4978b8"
+source_md5="53cd8d3210edd56dec16bd43c1a6f2d4"
 
 dest_files=[ "res://.import/belt_selector.png-1858ffecf9a9142fea781230fcffe1bd.stex" ]
-dest_md5="7621d2fde3c18b2310ec111869162a5c"
+dest_md5="4de055862e0a6d433623128802d11169"
 
 [params]
 

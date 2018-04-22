@@ -9,6 +9,13 @@ onready var Chord0 = $Sprite/Chords/Chord0
 onready var Chord1 = $Sprite/Chords/Chord1
 onready var Chord2 = $Sprite/Chords/Chord2
 
+onready var SONGS = [
+	$Musics/Song0,
+	$Musics/Song1,
+	$Musics/Song2,
+	$Musics/Song3,
+]
+
 var active = false
 
 var has_beat = {
@@ -17,11 +24,16 @@ var has_beat = {
 	"chord2": null
 }
 
+var music_cursor = 0
+
 func _ready():
 	connect("missed_beat", self, "_on_missed_beat")
 
 func _input(event):
 	if not active: return
+	
+	if Input.is_action_just_pressed("quit_guitar"):
+		stop_playing()
 	
 	if Input.is_action_just_pressed("play_chord_0"):
 		check_chord("chord0", Chord0)
@@ -41,9 +53,6 @@ func _input(event):
 	elif Input.is_action_just_released("play_chord_2"):
 		Chord2.get_node("Pressed_KO").hide()
 		Chord2.get_node("Pressed_OK").hide()
-	
-	if Input.is_action_just_pressed("quit_guitar"):
-		stop_playing()
 
 func _on_missed_beat():
 	$AnimationPlayer.play("missed_beat")
@@ -81,20 +90,41 @@ func beat_exited(beat):
 
 ###
 
+func _on_music_finished():
+	stop_playing()
+
 func playing():
 	active = true
-	$Music.play()
+	SONGS[music_cursor].play()
 	connect_chords()
+	SONGS[music_cursor].connect("finished", self, "_on_music_finished")
 	for beat_spawner in $Sprite/Beats.get_children():
 		beat_spawner.start()
 
 func stop_playing():
 	active = false
-	$Music.stop()
-	disconnect_chords()
+	
+	has_beat = {
+		"chord0": null,
+		"chord1": null,
+		"chord2": null
+	}
+	
+	SONGS[music_cursor].stop()
+	SONGS[music_cursor].disconnect("finished", self, "_on_music_finished")
+	
 	for beat_spawner in $Sprite/Beats.get_children():
 		beat_spawner.stop()
+	
+	disconnect_chords()
+	increment_music_cursor()
 	emit_signal("quit_guitar")
+
+func increment_music_cursor():
+	if music_cursor + 1 >= SONGS.size():
+		music_cursor = 0
+	else:
+		music_cursor += 1
 
 ### Check chord if beat on it
 

@@ -1,4 +1,4 @@
-extends "res://scripts/items/seeds/grass/PlantedGrass.gd"
+extends "res://scripts/items/seeds/PlantedSeed.gd"
 
 func seed_rewards():
 	return [

@@ -17,6 +17,9 @@ func _tick():
 		$Beats.add_child(beat)
 
 func start():
+	$Delay.start()
+	yield($Delay, "timeout")
+	$Delay.stop()
 	$Tick.start()
 
 func stop():

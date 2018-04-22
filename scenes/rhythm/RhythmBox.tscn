@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://scripts/rhythm/RhythmBox.gd" type="Script" id=1]
 [ext_resource path="res://assets/rhythm/rhythmbox.png" type="Texture" id=2]
@@ -8,26 +8,28 @@
 [ext_resource path="res://assets/rhythm/no_hit_chord.wav" type="AudioStream" id=6]
 [ext_resource path="res://assets/rhythm/hit_chord_beat.wav" type="AudioStream" id=7]
 [ext_resource path="res://assets/rhythm/missed_chord_beat.wav" type="AudioStream" id=8]
-[ext_resource path="res://assets/rhythm/song.ogg" type="AudioStream" id=9]
+[ext_resource path="res://assets/rhythm/song0.ogg" type="AudioStream" id=9]
+[ext_resource path="res://assets/rhythm/song1.ogg" type="AudioStream" id=10]
+[ext_resource path="res://assets/rhythm/song2.ogg" type="AudioStream" id=11]
+[ext_resource path="res://assets/rhythm/song3.ogg" type="AudioStream" id=12]
 
-[sub_resource type="RectangleShape2D" id=3]
+[sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
 extents = Vector2( 40.2922, 10.2957 )
 
-[sub_resource type="RectangleShape2D" id=4]
+[sub_resource type="RectangleShape2D" id=2]
 
 custom_solver_bias = 0.0
 extents = Vector2( 34.8184, 10 )
 
-[sub_resource type="RectangleShape2D" id=5]
+[sub_resource type="RectangleShape2D" id=3]
 
 custom_solver_bias = 0.0
 extents = Vector2( 37.2668, 10 )
 
-[sub_resource type="Animation" id=2]
+[sub_resource type="Animation" id=4]
 
-resource_name = "missed_beat"
 length = 0.5
 loop = false
 step = 0.1
@@ -44,7 +46,7 @@ tracks/0/keys = {
 "values": [ Vector2( 0, 0 ), Vector2( -6.33977, 3.90137 ), Vector2( 3.41368, 6.82739 ), Vector2( -5.36443, 0.487671 ), Vector2( -1.46306, 3.9014 ), Vector2( 0, 0 ) ]
 }
 
-[node name="RhythmBox" type="Node2D"]
+[node name="RhythmBox" type="Node2D" index="0"]
 
 pause_mode = 1
 script = ExtResource( 1 )
@@ -99,7 +101,7 @@ __meta__ = {
 [node name="Shape" type="CollisionShape2D" parent="Sprite/Chords/Chord0" index="0"]
 
 position = Vector2( 18, 10 )
-shape = SubResource( 3 )
+shape = SubResource( 1 )
 
 [node name="Pressed_KO" type="Sprite" parent="Sprite/Chords/Chord0" index="1"]
 
@@ -130,7 +132,7 @@ __meta__ = {
 [node name="Shape" type="CollisionShape2D" parent="Sprite/Chords/Chord1" index="0"]
 
 position = Vector2( 16, 10 )
-shape = SubResource( 4 )
+shape = SubResource( 2 )
 
 [node name="Pressed_KO" type="Sprite" parent="Sprite/Chords/Chord1" index="1"]
 
@@ -161,7 +163,7 @@ __meta__ = {
 [node name="Shape" type="CollisionShape2D" parent="Sprite/Chords/Chord2" index="0"]
 
 position = Vector2( 8, 10 )
-shape = SubResource( 5 )
+shape = SubResource( 3 )
 
 [node name="Pressed_KO" type="Sprite" parent="Sprite/Chords/Chord2" index="1"]
 
@@ -189,7 +191,7 @@ stream = ExtResource( 7 )
 volume_db = 0.0
 autoplay = false
 mix_target = 0
-bus = "Master"
+bus = "Snap"
 
 [node name="MissedChordBeat" type="AudioStreamPlayer" parent="Sprite/Chords" index="5"]
 
@@ -199,7 +201,19 @@ autoplay = false
 mix_target = 0
 bus = "Master"
 
-[node name="Music" type="AudioStreamPlayer" parent="." index="1"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="1"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/missed_beat = SubResource( 4 )
+blend_times = [  ]
+
+[node name="Musics" type="Node" parent="." index="2"]
+
+[node name="Song0" type="AudioStreamPlayer" parent="Musics" index="0"]
 
 stream = ExtResource( 9 )
 volume_db = 0.0
@@ -207,14 +221,28 @@ autoplay = false
 mix_target = 0
 bus = "Master"
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="2"]
+[node name="Song1" type="AudioStreamPlayer" parent="Musics" index="1"]
 
-root_node = NodePath("..")
-autoplay = ""
-playback_process_mode = 1
-playback_default_blend_time = 0.0
-playback_speed = 1.0
-anims/missed_beat = SubResource( 2 )
-blend_times = [  ]
+stream = ExtResource( 10 )
+volume_db = 0.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[node name="Song2" type="AudioStreamPlayer" parent="Musics" index="2"]
+
+stream = ExtResource( 11 )
+volume_db = 0.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[node name="Song3" type="AudioStreamPlayer" parent="Musics" index="3"]
+
+stream = ExtResource( 12 )
+volume_db = 0.0
+autoplay = false
+mix_target = 0
+bus = "Master"
 
 

@@ -34,7 +34,7 @@ func _on_tick():
 	# Grow seed on tick
 	if state.max_reached: return
 	
-	$Particles.emitting = true
+	$Particles.set_emitting(true)
 	state.tick += 1
 	
 	if state.max_reached: return
