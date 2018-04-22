@@ -109,6 +109,7 @@ bounce = 0.0
 
 [node name="CollisionShape" type="CollisionShape2D" parent="Ground/StaticBody" index="0"]
 
+position = Vector2( 0, -5 )
 shape = SubResource( 1 )
 
 [node name="PlantedSeeds" type="Container" parent="Ground" index="2"]

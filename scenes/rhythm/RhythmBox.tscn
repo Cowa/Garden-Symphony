@@ -34,7 +34,7 @@ tracks/0/keys = {
 "values": [ Vector2( 0, 0 ), Vector2( -6.33977, 3.90137 ), Vector2( 3.41368, 6.82739 ), Vector2( -5.36443, 0.487671 ), Vector2( -1.46306, 3.9014 ), Vector2( 0, 0 ) ]
 }
 
-[node name="RhythmBox" type="Node2D" index="0"]
+[node name="RhythmBox" type="Node2D"]
 
 pause_mode = 1
 script = ExtResource( 1 )
