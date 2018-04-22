@@ -27,14 +27,6 @@ func _on_tick():
 		_on_max_growing()
 
 func seed_rewards():
-	randomize()
-	
-	
 	return [
-		"grass", "grass"
+		"grass", "grass", "flower"
 	]
-
-#func _process(delta):
-#	# Called every frame. Delta is time since last frame.
-#	# Update game logic here.
-#	pass

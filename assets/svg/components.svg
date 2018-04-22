@@ -26,10 +26,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="216.59287"
-     inkscape:cy="287.73293"
+     inkscape:cx="185.6064"
+     inkscape:cy="324.55653"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="g5598"
      showgrid="false"
      inkscape:measure-start="1845.71,-908.571"
      inkscape:measure-end="697.143,-114.286"
@@ -303,50 +303,48 @@
        width="14.741071"
        height="12.945684"
        x="47.719498"
-       y="218.28647" />
-    <g
-       id="g5531"
-       transform="matrix(1.0193066,0,0,1.0193066,-0.93487717,-4.4647687)"
+       y="218.28647"
        inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass.png"
        inkscape:export-xdpi="54"
-       inkscape:export-ydpi="54">
-      <rect
-         transform="rotate(31.127028)"
-         rx="11.932085"
-         y="160.91194"
-         x="156.63651"
-         height="6.0592566"
-         width="2.0729036"
-         id="rect5480"
-         style="opacity:1;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:1.57851529;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         transform="rotate(31.127028)"
-         rx="11.932085"
-         y="156.88849"
-         x="162.68225"
-         height="6.0592566"
-         width="2.0729036"
-         id="rect5480-2"
-         style="opacity:1;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:1.57851529;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         transform="rotate(31.127028)"
-         rx="11.932085"
-         y="161.11192"
-         x="168.02681"
-         height="6.0592566"
-         width="2.0729036"
-         id="rect5480-2-7"
-         style="opacity:1;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:1.57851529;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         transform="rotate(31.127028)"
-         rx="11.932085"
-         y="165.8748"
-         x="161.4995"
-         height="6.0592566"
-         width="2.0729036"
-         id="rect5480-2-9"
-         style="opacity:1;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:1.57851529;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:1.60899103;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5480"
+       width="2.1129243"
+       height="6.1762404"
+       x="159.19452"
+       y="162.98715"
+       rx="12.162453"
+       transform="rotate(31.127028)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:1.60899103;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5480-2"
+       width="2.1129243"
+       height="6.1762404"
+       x="-112.22854"
+       y="197.38594"
+       rx="12.162453"
+       transform="rotate(-43.577046)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54"
+       inkscape:transform-center-x="-1.0690781"
+       inkscape:transform-center-y="0.13363476" />
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:1.60899103;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5480-2-9"
+       width="2.1129243"
+       height="6.1762404"
+       x="226.94357"
+       y="54.789562"
+       rx="12.162453"
+       transform="rotate(61.539154)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
   </g>
   <g
      inkscape:label="flower_seed"
@@ -360,52 +358,49 @@
        width="14.741071"
        id="rect5533"
        style="opacity:1;fill:#d35f5f;fill-opacity:1;stroke:none;stroke-width:1.56867611;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <g
-       id="g5555">
-      <rect
-         style="opacity:1;fill:#524d39;fill-opacity:1;stroke:none;stroke-width:2.61397433;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect5535"
-         width="3.6976528"
-         height="9.3148823"
-         x="-108.73524"
-         y="176.2832"
-         rx="21.284496"
-         transform="matrix(0.48377555,-0.8751921,0.70193726,0.71223878,0,0)" />
-      <rect
-         style="opacity:1;fill:#524d39;fill-opacity:1;stroke:none;stroke-width:2.73156476;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect5537"
-         width="3.8223054"
-         height="9.8400784"
-         x="-115.75163"
-         y="178.38692"
-         rx="22.002022"
-         transform="matrix(0.47167796,-0.88177089,0.74132551,0.67114566,0,0)" />
-      <rect
-         style="opacity:1;fill:#524d39;fill-opacity:1;stroke:none;stroke-width:1.80605626;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect5539"
-         width="2.3717101"
-         height="6.9326911"
-         x="142.66475"
-         y="-198.97192"
-         rx="13.65208"
-         transform="rotate(123.71233)" />
-      <rect
-         style="opacity:1;fill:#524d39;fill-opacity:1;stroke:none;stroke-width:1.91564786;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect5541"
-         width="2.8656869"
-         height="6.4551077"
-         x="227.55417"
-         y="-24.957941"
-         rx="16.495518"
-         transform="matrix(0.23770656,0.97133701,-0.95973912,-0.2808929,0,0)" />
-    </g>
+    <rect
+       transform="matrix(0.48377555,-0.8751921,0.70193726,0.71223878,0,0)"
+       rx="21.284496"
+       y="176.2832"
+       x="-108.73524"
+       height="9.3148823"
+       width="3.6976528"
+       id="rect5535"
+       style="opacity:1;fill:#524d39;fill-opacity:1;stroke:none;stroke-width:2.61397433;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       transform="matrix(0.47167796,-0.88177089,0.74132551,0.67114566,0,0)"
+       rx="22.002022"
+       y="178.38692"
+       x="-115.75163"
+       height="9.8400784"
+       width="3.8223054"
+       id="rect5537"
+       style="opacity:1;fill:#524d39;fill-opacity:1;stroke:none;stroke-width:2.73156476;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       transform="matrix(-0.77419968,-0.63294143,0.93564495,-0.35294267,0,0)"
+       rx="16.495564"
+       y="-151.78256"
+       x="-280.19458"
+       height="6.4551406"
+       width="2.865695"
+       id="rect5541"
+       style="opacity:1;fill:#524d39;fill-opacity:1;stroke:none;stroke-width:1.91565716;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="grass_grow_0">
     <rect
-       style="opacity:1;fill:#86c29e;fill-opacity:1;stroke:none;stroke-width:1.36451864;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#59d28a;fill-opacity:1;stroke:none;stroke-width:1.36451864;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5558"
        width="14.741072"
        height="2.5403316"
@@ -415,7 +410,7 @@
        inkscape:export-xdpi="54"
        inkscape:export-ydpi="54" />
     <rect
-       style="opacity:1;fill:#86c29e;fill-opacity:1;stroke:none;stroke-width:1.73908842;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#59d28a;fill-opacity:1;stroke:none;stroke-width:1.73908842;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5560"
        width="2.460356"
        height="1.4965099"
@@ -425,13 +420,477 @@
        inkscape:export-xdpi="54"
        inkscape:export-ydpi="54" />
     <rect
-       style="opacity:1;fill:#86c29e;fill-opacity:1;stroke:none;stroke-width:1.73908842;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#59d28a;fill-opacity:1;stroke:none;stroke-width:1.73908842;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5560-3"
        width="2.460356"
        height="1.4965099"
        x="58.477703"
        y="214.30966"
        inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_0.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+  </g>
+  <g
+     inkscape:label="grass_grow_1"
+     id="g5598"
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_1.png"
+       y="213.78384"
+       x="29.576637"
+       height="4.502634"
+       width="14.741072"
+       id="rect5592"
+       style="opacity:1;fill:#59d28a;fill-opacity:1;stroke:none;stroke-width:1.81663465;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_1.png"
+       y="212.51093"
+       x="30.634972"
+       height="1.8020561"
+       width="2.460356"
+       id="rect5594"
+       style="opacity:1;fill:#59d28a;fill-opacity:1;stroke:none;stroke-width:1.90838516;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_1.png"
+       y="212.29605"
+       x="40.864014"
+       height="2.6525025"
+       width="2.460356"
+       id="rect5596"
+       style="opacity:1;fill:#59d28a;fill-opacity:1;stroke:none;stroke-width:2.31531334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_1.png"
+       y="212.2355"
+       x="35.716995"
+       height="2.6525025"
+       width="2.460356"
+       id="rect5596-0"
+       style="opacity:1;fill:#59d28a;fill-opacity:1;stroke:none;stroke-width:2.31531334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g5623"
+     inkscape:label="grass_grow_2"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:1;fill:#59d28a;fill-opacity:1;stroke:none;stroke-width:1.81663465;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5615"
+       width="14.741072"
+       height="4.502634"
+       x="29.576637"
+       y="213.78384"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_1.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#59d28a;fill-opacity:1;stroke:none;stroke-width:1.90838516;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5617"
+       width="2.460356"
+       height="1.8020561"
+       x="30.634972"
+       y="212.51093"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_1.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#59d28a;fill-opacity:1;stroke:none;stroke-width:2.31531334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5619"
+       width="2.460356"
+       height="2.6525025"
+       x="40.864014"
+       y="212.29605"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_1.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#59d28a;fill-opacity:1;stroke:none;stroke-width:2.31531334;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5621"
+       width="2.460356"
+       height="2.6525025"
+       x="35.716995"
+       y="212.2355"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_1.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#59d28a;fill-opacity:1;stroke:none;stroke-width:2.26323867;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5615-3"
+       width="14.741072"
+       height="6.9886322"
+       x="11.605601"
+       y="211.25238"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_2.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#59d28a;fill-opacity:1;stroke:none;stroke-width:2.37754536;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5617-7"
+       width="2.460356"
+       height="2.797009"
+       x="13.193102"
+       y="209.80582"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_2.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#59d28a;fill-opacity:1;stroke:none;stroke-width:3.27888489;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5619-5"
+       width="2.460356"
+       height="5.3197174"
+       x="22.36381"
+       y="208.26959"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_2.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#59d28a;fill-opacity:1;stroke:none;stroke-width:2.88451338;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5621-2"
+       width="2.460356"
+       height="4.1170044"
+       x="17.745958"
+       y="209.90749"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_2.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+  </g>
+  <g
+     inkscape:label="flower_grow_0"
+     id="g5663"
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true"
+     style="display:inline">
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_0.png"
+       y="216.22893"
+       x="73.608437"
+       height="2.0206144"
+       width="1.9371282"
+       id="rect5657"
+       style="opacity:1;fill:#3ec765;fill-opacity:1;stroke:none;stroke-width:0.44115445;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       style="opacity:1;fill:#bae4c6;fill-opacity:1;stroke:none;stroke-width:1.29228258;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5665"
+       cx="74.521515"
+       cy="215.92857"
+       rx="1.2035849"
+       ry="1.0155567" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_0.png"
+       y="216.23322"
+       x="77.715416"
+       height="2.0206144"
+       width="1.9371282"
+       id="rect5657-7"
+       style="opacity:1;fill:#3ec765;fill-opacity:1;stroke:none;stroke-width:0.44115445;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       style="opacity:1;fill:#bae4c6;fill-opacity:1;stroke:none;stroke-width:1.29228258;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5665-4"
+       cx="78.628494"
+       cy="215.93286"
+       rx="1.203585"
+       ry="1.0155567" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_0.png"
+       y="216.23322"
+       x="82.147186"
+       height="2.0206144"
+       width="1.9371282"
+       id="rect5657-7-7"
+       style="opacity:1;fill:#3ec765;fill-opacity:1;stroke:none;stroke-width:0.44115445;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       style="opacity:1;fill:#bae4c6;fill-opacity:1;stroke:none;stroke-width:1.29228258;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5665-4-9"
+       cx="83.060265"
+       cy="215.93286"
+       rx="1.203585"
+       ry="1.0155567" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g5715"
+     inkscape:label="flower_grow_1"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:1;fill:#3ec765;fill-opacity:1;stroke:none;stroke-width:0.44115445;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5703"
+       width="1.9371282"
+       height="2.0206144"
+       x="73.608437"
+       y="216.22893"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_0.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <ellipse
+       ry="1.0155567"
+       rx="1.2035849"
+       cy="215.92857"
+       cx="74.521515"
+       id="ellipse5705"
+       style="opacity:1;fill:#bae4c6;fill-opacity:1;stroke:none;stroke-width:1.29228258;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#3ec765;fill-opacity:1;stroke:none;stroke-width:0.44115445;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5707"
+       width="1.9371282"
+       height="2.0206144"
+       x="77.715416"
+       y="216.23322"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_0.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <ellipse
+       ry="1.0155567"
+       rx="1.203585"
+       cy="215.93286"
+       cx="78.628494"
+       id="ellipse5709"
+       style="opacity:1;fill:#bae4c6;fill-opacity:1;stroke:none;stroke-width:1.29228258;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#3ec765;fill-opacity:1;stroke:none;stroke-width:0.44115445;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5711"
+       width="1.9371282"
+       height="2.0206144"
+       x="82.147186"
+       y="216.23322"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass_grow_0.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <ellipse
+       ry="1.0155567"
+       rx="1.203585"
+       cy="215.93286"
+       cx="83.060265"
+       id="ellipse5713"
+       style="opacity:1;fill:#bae4c6;fill-opacity:1;stroke:none;stroke-width:1.29228258;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#3ec765;fill-opacity:1;stroke:none;stroke-width:0.65987897;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5703-0"
+       width="1.9371282"
+       height="4.5209603"
+       x="87.577087"
+       y="213.76021"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_1.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <ellipse
+       ry="1.0155567"
+       rx="1.203585"
+       cy="213.3197"
+       cx="88.490166"
+       id="ellipse5705-8"
+       style="opacity:1;fill:#e6eae7;fill-opacity:1;stroke:none;stroke-width:1.29228258;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_1.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#3ec765;fill-opacity:1;stroke:none;stroke-width:0.65987897;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5707-1"
+       width="1.9371282"
+       height="4.5209603"
+       x="91.684067"
+       y="213.76979"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_1.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <ellipse
+       ry="1.0155567"
+       rx="1.203585"
+       cy="214.38231"
+       cx="92.597145"
+       id="ellipse5709-1"
+       style="opacity:1;fill:#e6eae7;fill-opacity:1;stroke:none;stroke-width:1.29228258;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_1.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#3ec765;fill-opacity:1;stroke:none;stroke-width:0.73595327;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5711-4"
+       width="1.9371282"
+       height="5.6234469"
+       x="96.115837"
+       y="212.6673"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_1.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <ellipse
+       ry="1.0155567"
+       rx="1.203585"
+       cy="212.26567"
+       cx="97.028915"
+       id="ellipse5713-1"
+       style="opacity:1;fill:#e6eae7;fill-opacity:1;stroke:none;stroke-width:1.29228258;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_1.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+  </g>
+  <g
+     inkscape:label="flower_grow_2"
+     id="g5771"
+     inkscape:groupmode="layer"
+     style="display:inline">
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_0.png"
+       y="216.22893"
+       x="73.608437"
+       height="2.0206144"
+       width="1.9371282"
+       id="rect5747"
+       style="opacity:1;fill:#3ec765;fill-opacity:1;stroke:none;stroke-width:0.44115445;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       style="opacity:1;fill:#bae4c6;fill-opacity:1;stroke:none;stroke-width:1.29228258;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse5749"
+       cx="74.521515"
+       cy="215.92857"
+       rx="1.2035849"
+       ry="1.0155567"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_0.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_0.png"
+       y="216.23322"
+       x="77.715416"
+       height="2.0206144"
+       width="1.9371282"
+       id="rect5751"
+       style="opacity:1;fill:#3ec765;fill-opacity:1;stroke:none;stroke-width:0.44115445;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       style="opacity:1;fill:#bae4c6;fill-opacity:1;stroke:none;stroke-width:1.29228258;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse5753"
+       cx="78.628494"
+       cy="215.93286"
+       rx="1.203585"
+       ry="1.0155567"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_0.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_0.png"
+       y="216.23322"
+       x="82.147186"
+       height="2.0206144"
+       width="1.9371282"
+       id="rect5755"
+       style="opacity:1;fill:#3ec765;fill-opacity:1;stroke:none;stroke-width:0.44115445;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       style="opacity:1;fill:#bae4c6;fill-opacity:1;stroke:none;stroke-width:1.29228258;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse5757"
+       cx="83.060265"
+       cy="215.93286"
+       rx="1.203585"
+       ry="1.0155567"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_0.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_2.png"
+       y="209.18452"
+       x="102.39376"
+       height="9.0869617"
+       width="1.9371282"
+       id="rect5759"
+       style="opacity:1;fill:#3ec765;fill-opacity:1;stroke:none;stroke-width:0.9355312;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.54329431;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse5761"
+       cx="103.34219"
+       cy="208.75378"
+       rx="1.4373683"
+       ry="1.2128174"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_2.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_2.png"
+       y="209.93877"
+       x="106.50076"
+       height="8.3519707"
+       width="1.9371282"
+       id="rect5763"
+       style="opacity:1;fill:#3ec765;fill-opacity:1;stroke:none;stroke-width:0.89689869;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.54329431;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse5765"
+       cx="107.37753"
+       cy="209.8019"
+       rx="1.4373683"
+       ry="1.2128174"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_2.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_2.png"
+       y="206.98782"
+       x="110.93248"
+       height="11.302918"
+       width="1.9371282"
+       id="rect5767"
+       style="opacity:1;fill:#3ec765;fill-opacity:1;stroke:none;stroke-width:1.04338419;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.54329431;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse5769"
+       cx="111.88578"
+       cy="206.67999"
+       rx="1.4373683"
+       ry="1.2128174"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_2.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <ellipse
+       style="opacity:1;fill:#ffe680;fill-opacity:1;stroke:none;stroke-width:2.42534709;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5773"
+       cx="103.30539"
+       cy="208.77217"
+       rx="0.73499119"
+       ry="0.61249262"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_2.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <ellipse
+       style="opacity:1;fill:#ffe680;fill-opacity:1;stroke:none;stroke-width:2.42534709;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5773-0"
+       cx="107.40894"
+       cy="209.86475"
+       rx="0.73499119"
+       ry="0.61249262"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_2.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <ellipse
+       style="opacity:1;fill:#ffe680;fill-opacity:1;stroke:none;stroke-width:2.42534709;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5773-0-8"
+       cx="111.81889"
+       cy="206.79654"
+       rx="0.73499119"
+       ry="0.61249262"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower_grow_2.png"
        inkscape:export-xdpi="54"
        inkscape:export-ydpi="54" />
   </g>

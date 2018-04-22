@@ -72,7 +72,7 @@ func _input(event):
 		plant_seed()
 	
 	# Play guitar!
-	if guitar_is_selected() and Input.is_action_just_pressed("play_guitar"):
+	if state.has_guitar and guitar_is_selected() and Input.is_action_just_pressed("play_guitar"):
 		play_guitar()
 
 func _physics_process(delta):
@@ -99,11 +99,15 @@ func picked_item(item):
 func picked_seed(seed_):
 	match seed_.seed_type:
 		"Grass": picked_grass_seed(seed_)
+		"Flower": picked_flower_seed(seed_)
 		"Abstract": print("Picked abstract seed, do nothing")
 		_: print("Unknown seed...")
 
-func picked_grass_seed(grass_seed):
+func picked_grass_seed(seed_):
 	increment_seed("grass")
+
+func picked_flower_seed(seed_):
+	increment_seed("flower")
 
 func picked_guitar():
 	state.has_guitar = true

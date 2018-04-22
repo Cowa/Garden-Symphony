@@ -2,7 +2,8 @@ extends Node
 
 
 const PLANTED_SEEDS = {
-	"grass": preload("res://scenes/items/seeds/grass/PlantedGrass.tscn")
+	"grass": preload("res://scenes/items/seeds/grass/PlantedGrass.tscn"),
+	"flower": preload("res://scenes/items/seeds/flower/PlantedFlower.tscn")
 }
 
 const GUITAR = preload("res://scenes/items/Guitar.tscn")
