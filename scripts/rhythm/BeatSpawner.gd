@@ -1,6 +1,6 @@
 extends Node2D
 
-const BEAT = preload("res://scenes/rhythm/Beat.tscn")
+var BEAT = load("res://scenes/rhythm/Beat.tscn")
 
 export var one_chance_on = 2
 export(float) var tick_time = 1

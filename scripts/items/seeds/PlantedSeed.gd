@@ -4,10 +4,10 @@ signal seed_rewards
 
 const INITIAL_GROWING_STATE = -1
 
-const GRASS_SEEDS = preload("res://scenes/items/seeds/grass/GrassSeed.tscn")
-const FLOWER_SEEDS = preload("res://scenes/items/seeds/flower/FlowerSeed.tscn")
-const BUSH_SEEDS = preload("res://scenes/items/seeds/bush/BushSeed.tscn")
-const TREE_SEEDS = preload("res://scenes/items/seeds/tree/TreeSeed.tscn")
+var GRASS_SEEDS = load("res://scenes/items/seeds/grass/GrassSeed.tscn")
+var FLOWER_SEEDS = load("res://scenes/items/seeds/flower/FlowerSeed.tscn")
+var BUSH_SEEDS = load("res://scenes/items/seeds/bush/BushSeed.tscn")
+var TREE_SEEDS = load("res://scenes/items/seeds/tree/TreeSeed.tscn")
 
 var state = {
 	"tick": 0,

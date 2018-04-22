@@ -1,14 +1,14 @@
 extends Node
 
 
-const PLANTED_SEEDS = {
-	"grass": preload("res://scenes/items/seeds/grass/PlantedGrass.tscn"),
-	"flower": preload("res://scenes/items/seeds/flower/PlantedFlower.tscn"),
-	"bush": preload("res://scenes/items/seeds/bush/PlantedBush.tscn"),
-	"tree": preload("res://scenes/items/seeds/tree/PlantedTree.tscn")
+onready var PLANTED_SEEDS = {
+	"grass": load("res://scenes/items/seeds/grass/PlantedGrass.tscn"),
+	"flower": load("res://scenes/items/seeds/flower/PlantedFlower.tscn"),
+	"bush": load("res://scenes/items/seeds/bush/PlantedBush.tscn"),
+	"tree": load("res://scenes/items/seeds/tree/PlantedTree.tscn")
 }
 
-const GUITAR = preload("res://scenes/items/Guitar.tscn")
+onready var GUITAR = load("res://scenes/items/Guitar.tscn")
 
 func _ready():
 	$Player.connect("seeds_changed", $UI/Belt, "update_seeds")

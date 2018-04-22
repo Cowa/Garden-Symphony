@@ -27,7 +27,7 @@ func _input(event):
 		get_tree().change_scene(\"res://scenes/world/World.tscn\")
 "
 
-[node name="Menu" type="Node"]
+[node name="Menu" type="Node" index="0"]
 
 script = SubResource( 1 )
 
