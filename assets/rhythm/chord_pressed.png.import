@@ -7,10 +7,10 @@ path="res://.import/chord_pressed.png-009792c78c27cdfdbb04305b8f691ad9.stex"
 [deps]
 
 source_file="res://assets/rhythm/chord_pressed.png"
-source_md5="0f5ea8fd09b9652ca13cb0ba8259760b"
+source_md5="6fd68d7d90859fe2c51cf36d3478e395"
 
 dest_files=[ "res://.import/chord_pressed.png-009792c78c27cdfdbb04305b8f691ad9.stex" ]
-dest_md5="bf68ae759f99101da5f28da5b1e1ceac"
+dest_md5="2150f3f5466a7a87b7813aa06098c78b"
 
 [params]
 

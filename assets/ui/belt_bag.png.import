@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rhythmbox.png-925a846ac19c8139973a632a5a86faf6.stex"
+path="res://.import/belt_bag.png-71825ef5c28f455d922038d485806b79.stex"
 
 [deps]
 
-source_file="res://assets/rhythm/rhythmbox.png"
-source_md5="2687eb7026cf5631aee0350fa08681d5"
+source_file="res://assets/ui/belt_bag.png"
+source_md5="346f6246da494baa5e2738e678617833"
 
-dest_files=[ "res://.import/rhythmbox.png-925a846ac19c8139973a632a5a86faf6.stex" ]
-dest_md5="d613967e2946ca2022031d0c0670a1c4"
+dest_files=[ "res://.import/belt_bag.png-71825ef5c28f455d922038d485806b79.stex" ]
+dest_md5="e4a408f8b625bb5a154c96f8ec556743"
 
 [params]
 

@@ -25,14 +25,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="581.93061"
-     inkscape:cy="330.01416"
+     inkscape:zoom="0.7"
+     inkscape:cx="2018.7657"
+     inkscape:cy="895.80029"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer12"
+     inkscape:current-layer="layer15"
      showgrid="false"
-     inkscape:measure-start="90.728,248.571"
-     inkscape:measure-end="0,0"
+     inkscape:measure-start="2058.57,625.714"
+     inkscape:measure-end="2058.57,617.143"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -232,8 +232,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer7"
-     inkscape:label="player"
-     sodipodi:insensitive="true">
+     inkscape:label="player">
     <rect
        style="opacity:1;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1.3394047;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6040"
@@ -249,7 +248,6 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="grass_seed"
-     sodipodi:insensitive="true"
      style="display:inline">
     <rect
        style="opacity:1;fill:#d35f5f;fill-opacity:1;stroke:none;stroke-width:1.56867611;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -262,7 +260,7 @@
        inkscape:export-xdpi="54"
        inkscape:export-ydpi="54" />
     <rect
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:1.60899103;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#4aa26e;fill-opacity:1;stroke:none;stroke-width:1.60899103;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5480"
        width="2.1129243"
        height="6.1762404"
@@ -274,7 +272,7 @@
        inkscape:export-xdpi="54"
        inkscape:export-ydpi="54" />
     <rect
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:1.60899103;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#4aa26e;fill-opacity:1;stroke:none;stroke-width:1.60899103;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5480-2"
        width="2.1129243"
        height="6.1762404"
@@ -288,7 +286,7 @@
        inkscape:transform-center-x="-1.0690781"
        inkscape:transform-center-y="0.13363476" />
     <rect
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;stroke:none;stroke-width:1.60899103;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#4aa26e;fill-opacity:1;stroke:none;stroke-width:1.60899103;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5480-2-9"
        width="2.1129243"
        height="6.1762404"
@@ -321,7 +319,7 @@
        height="5.8678126"
        width="2.3292978"
        id="rect5535"
-       style="opacity:1;fill:#ffaea1;fill-opacity:1;stroke:none;stroke-width:1.64664578;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.64664578;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower.png"
        inkscape:export-xdpi="54"
        inkscape:export-ydpi="54" />
@@ -333,7 +331,7 @@
        height="6.1986542"
        width="2.4078214"
        id="rect5537"
-       style="opacity:1;fill:#ffaea1;fill-opacity:1;stroke:none;stroke-width:1.72072065;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.72072065;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower.png"
        inkscape:export-xdpi="54"
        inkscape:export-ydpi="54" />
@@ -345,7 +343,7 @@
        height="4.7510052"
        width="2.8015301"
        id="rect5541"
-       style="opacity:1;fill:#ffaea1;fill-opacity:1;stroke:none;stroke-width:1.62495136;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.62495136;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\flower.png"
        inkscape:export-xdpi="54"
        inkscape:export-ydpi="54" />
@@ -861,46 +859,39 @@
      inkscape:label="bush_seed"
      sodipodi:insensitive="true">
     <rect
-       style="opacity:1;fill:#d35f5f;fill-opacity:1;stroke:none;stroke-width:1.56867611;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect5805"
-       width="14.741071"
-       height="12.945684"
-       x="127.46024"
-       y="236.10916" />
-    <rect
        inkscape:export-ydpi="54"
        inkscape:export-xdpi="54"
        inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\bush.png"
-       style="opacity:1;fill:#01ffe4;fill-opacity:1;stroke:none;stroke-width:2.85137415;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#bc6767;fill-opacity:1;stroke:none;stroke-width:2.85137415;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5807"
        width="4.5292344"
        height="9.048665"
-       x="-102.55186"
-       y="224.14183"
+       x="-78.584938"
+       y="231.71111"
        rx="26.07126"
        transform="matrix(0.41833394,-0.9082933,0.75869001,0.65145181,0,0)" />
     <rect
        inkscape:export-ydpi="54"
        inkscape:export-xdpi="54"
        inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\bush.png"
-       style="opacity:1;fill:#01ffe4;fill-opacity:1;stroke:none;stroke-width:2.6788578;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#bc6767;fill-opacity:1;stroke:none;stroke-width:2.6788578;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5809"
        width="3.8753972"
        height="9.3343496"
-       x="-252.71811"
-       y="-161.93008"
+       x="-256.5694"
+       y="-139.70384"
        rx="22.307629"
        transform="matrix(-0.90056642,-0.43471845,0.55342626,-0.83289818,0,0)" />
     <rect
        inkscape:export-ydpi="54"
        inkscape:export-xdpi="54"
        inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\bush.png"
-       style="opacity:1;fill:#01ffe4;fill-opacity:1;stroke:none;stroke-width:2.69387269;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#bc6767;fill-opacity:1;stroke:none;stroke-width:2.69387269;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5811"
        width="4.9653082"
        height="7.3672938"
-       x="-325.07117"
-       y="-145.6326"
+       x="-315.10748"
+       y="-119.29296"
        rx="28.581394"
        transform="matrix(-0.81583406,-0.57828607,0.90728723,-0.42051145,0,0)" />
   </g>
@@ -982,7 +973,8 @@
      inkscape:label="bush_grow_2"
      id="g5975"
      inkscape:groupmode="layer"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <ellipse
        style="display:inline;opacity:1;fill:#e97d7d;fill-opacity:1;stroke:none;stroke-width:3.81220841;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path6037-0-1"
@@ -1462,9 +1454,10 @@
   <g
      inkscape:groupmode="layer"
      id="layer12"
-     inkscape:label="belt">
+     inkscape:label="belt"
+     sodipodi:insensitive="true">
     <rect
-       style="opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.18854868;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.18854875, 1.18854875000000004;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#9fc7e0;fill-opacity:1;stroke:none;stroke-width:1.18854868;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.18854875, 1.18854875;stroke-dashoffset:0;stroke-opacity:1"
        id="rect6689"
        width="226.50572"
        height="23.754026"
@@ -1550,4 +1543,265 @@
        inkscape:export-xdpi="54"
        inkscape:export-ydpi="54" />
   </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer14"
+     inkscape:label="belt_bag"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.89526314;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6747"
+       width="20.349997"
+       height="18.708866"
+       x="64.908974"
+       y="253.16243"
+       rx="6.1403508"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\ui\belt_bag.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.58773851;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6749"
+       width="10.423505"
+       height="6.1472106"
+       x="69.751976"
+       y="249.66101"
+       rx="2"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\ui\belt_bag.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="display:inline;opacity:1;fill:#4aa26e;fill-opacity:1;stroke:none;stroke-width:1.60899103;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5480-7"
+       width="2.1129243"
+       height="6.1762404"
+       x="195.09482"
+       y="184.42143"
+       rx="12.162453"
+       transform="rotate(31.127028)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="display:inline;opacity:1;fill:#4aa26e;fill-opacity:1;stroke:none;stroke-width:1.60899103;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5480-2-5"
+       width="2.1129243"
+       height="6.1762404"
+       x="-123.43292"
+       y="237.66888"
+       rx="12.162453"
+       transform="rotate(-43.577045)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54"
+       inkscape:transform-center-x="-1.0690781"
+       inkscape:transform-center-y="0.13363476" />
+    <rect
+       style="display:inline;opacity:1;fill:#4aa26e;fill-opacity:1;stroke:none;stroke-width:1.60899103;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5480-2-9-5"
+       width="2.1129243"
+       height="6.1762404"
+       x="268.75464"
+       y="55.101357"
+       rx="12.162453"
+       transform="rotate(61.539153)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\grass.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer15"
+     inkscape:label="rhythmbox">
+    <rect
+       style="opacity:1;fill:#c5c5c5;fill-opacity:1;stroke:none;stroke-width:2.9235909;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6773"
+       width="279.1076"
+       height="125.31615"
+       x="498.72101"
+       y="-35.838753"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\rhythmbox.png"
+       inkscape:export-xdpi="54.35862"
+       inkscape:export-ydpi="54.35862" />
+    <rect
+       style="opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:0.88480884;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6775"
+       width="16.441683"
+       height="192.60893"
+       x="553.96063"
+       y="-66.725151"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\rhythmbox.png"
+       inkscape:export-xdpi="54.35862"
+       inkscape:export-ydpi="54.35862" />
+    <rect
+       style="opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:0.88572925;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6775-9"
+       width="16.441685"
+       height="193.00984"
+       x="632.09875"
+       y="-66.524643"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\rhythmbox.png"
+       inkscape:export-xdpi="54.35862"
+       inkscape:export-ydpi="54.35862" />
+    <rect
+       style="opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:0.8848089;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6775-9-9"
+       width="16.441685"
+       height="192.60893"
+       x="710.23682"
+       y="-66.791687"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\rhythmbox.png"
+       inkscape:export-xdpi="54.35862"
+       inkscape:export-ydpi="54.35862" />
+    <circle
+       style="opacity:1;fill:#facc7e;fill-opacity:1;stroke:#edb455;stroke-width:4.89750862;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path6809"
+       cx="560.29041"
+       cy="83.707649"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\rhythmbox.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54"
+       r="23.264866" />
+    <circle
+       style="opacity:1;fill:#facc7e;fill-opacity:1;stroke:#edb455;stroke-width:4.89750862;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path6809-2"
+       cx="638.92041"
+       cy="83.707649"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\rhythmbox.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54"
+       r="23.264866" />
+    <circle
+       style="opacity:1;fill:#facc7e;fill-opacity:1;stroke:#edb455;stroke-width:4.89750862;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path6809-2-1"
+       cx="717.55035"
+       cy="83.707649"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\rhythmbox.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54"
+       r="23.264866" />
+    <circle
+       style="opacity:1;fill:#e97d7d;fill-opacity:1;stroke:#d04c4c;stroke-width:4.89750862;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path6809-1"
+       cx="443.13287"
+       cy="49.508415"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\chord_pressed_ko.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54"
+       r="23.264868" />
+    <circle
+       style="opacity:1;fill:#72ba8a;fill-opacity:1;stroke:#479661;stroke-width:4.89750862;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path6809-1-5"
+       cx="373.10825"
+       cy="53.784729"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\chord_pressed_ok.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54"
+       r="23.264868" />
+    <circle
+       style="opacity:1;fill:#efec1d;fill-opacity:1;stroke:#dedb0e;stroke-width:3.67578602;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path6809-1-0"
+       cx="509.00632"
+       cy="-75.980469"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\beat.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54"
+       r="17.46126" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6903"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion6905"><rect
+           id="rect6907"
+           width="86.142273"
+           height="110.67353"
+           x="2093.7095"
+           y="475.78122" /></flowRegion><flowPara
+         id="flowPara6909"></flowPara></flowRoot>    <g
+       id="g6968"
+       transform="matrix(0.77452199,0,0,0.77452199,126.95026,18.629814)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\rhythmbox.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54">
+      <rect
+         y="125.88378"
+         x="545.20221"
+         height="29.282375"
+         width="31.550232"
+         id="rect6901"
+         style="opacity:1;fill:#4c4c4c;fill-opacity:1;stroke:#0c0c0c;stroke-width:1.89999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text6913"
+         y="148.90894"
+         x="553.97644"
+         style="font-style:normal;font-weight:normal;font-size:22.50844383px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.56271106"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.56271106"
+           y="148.90894"
+           x="553.97644"
+           id="tspan6911"
+           sodipodi:role="line">1</tspan></text>
+    </g>
+    <g
+       id="g6973"
+       transform="matrix(0.77452199,0,0,0.77452199,145.0873,18.164003)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\rhythmbox.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54">
+      <rect
+         y="126.4852"
+         x="622.81116"
+         height="29.282377"
+         width="31.550232"
+         id="rect6901-6"
+         style="opacity:1;fill:#4c4c4c;fill-opacity:1;stroke:#0c0c0c;stroke-width:1.89999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text6913-8"
+         y="149.51036"
+         x="631.58539"
+         style="font-style:normal;font-weight:normal;font-size:22.50844383px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.56271106"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.56271106"
+           y="149.51036"
+           x="631.58539"
+           id="tspan6911-6"
+           sodipodi:role="line">2</tspan></text>
+    </g>
+    <g
+       id="g6978"
+       transform="matrix(0.77452199,0,0,0.77452199,163.75353,18.681342)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\rhythm\rhythmbox.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54">
+      <rect
+         y="125.81725"
+         x="700.42004"
+         height="29.282377"
+         width="31.550232"
+         id="rect6901-6-0"
+         style="opacity:1;fill:#4c4c4c;fill-opacity:1;stroke:#0c0c0c;stroke-width:1.89999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text6913-8-9"
+         y="148.84241"
+         x="709.19427"
+         style="font-style:normal;font-weight:normal;font-size:22.50844383px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.56271106"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.56271106"
+           y="148.84241"
+           x="709.19427"
+           id="tspan6911-6-4"
+           sodipodi:role="line">3</tspan></text>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot6957"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion6959"><rect
+           id="rect6961"
+           width="850"
+           height="205.71428"
+           x="1992.8572"
+           y="448.23398" /></flowRegion><flowPara
+         id="flowPara6963"></flowPara></flowRoot>  </g>
 </svg>

@@ -1,18 +1,19 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://scripts/rhythm/RhythmBox.gd" type="Script" id=1]
 [ext_resource path="res://assets/rhythm/rhythmbox.png" type="Texture" id=2]
 [ext_resource path="res://scenes/rhythm/BeatSpawner.tscn" type="PackedScene" id=3]
 [ext_resource path="res://assets/rhythm/chord_pressed.png" type="Texture" id=4]
-[ext_resource path="res://assets/rhythm/no_hit_chord.wav" type="AudioStream" id=5]
-[ext_resource path="res://assets/rhythm/hit_chord_beat.wav" type="AudioStream" id=6]
-[ext_resource path="res://assets/rhythm/missed_chord_beat.wav" type="AudioStream" id=7]
-[ext_resource path="res://assets/rhythm/song.ogg" type="AudioStream" id=8]
+[ext_resource path="res://assets/rhythm/chord_pressed_ok.png" type="Texture" id=5]
+[ext_resource path="res://assets/rhythm/no_hit_chord.wav" type="AudioStream" id=6]
+[ext_resource path="res://assets/rhythm/hit_chord_beat.wav" type="AudioStream" id=7]
+[ext_resource path="res://assets/rhythm/missed_chord_beat.wav" type="AudioStream" id=8]
+[ext_resource path="res://assets/rhythm/song.ogg" type="AudioStream" id=9]
 
 [sub_resource type="CircleShape2D" id=1]
 
 custom_solver_bias = 0.0
-radius = 47.8067
+radius = 44.2374
 
 [sub_resource type="Animation" id=2]
 
@@ -33,7 +34,7 @@ tracks/0/keys = {
 "values": [ Vector2( 0, 0 ), Vector2( -6.33977, 3.90137 ), Vector2( 3.41368, 6.82739 ), Vector2( -5.36443, 0.487671 ), Vector2( -1.46306, 3.9014 ), Vector2( 0, 0 ) ]
 }
 
-[node name="RhythmBox" type="Node2D"]
+[node name="RhythmBox" type="Node2D" index="0"]
 
 pause_mode = 1
 script = ExtResource( 1 )
@@ -54,18 +55,18 @@ _sections_unfolded = [ "Pause" ]
 
 [node name="BeatSpawner" parent="Sprite/Beats" index="0" instance=ExtResource( 3 )]
 
-position = Vector2( 115, 0 )
+position = Vector2( 137, 0 )
 _sections_unfolded = [ "Pause" ]
 
 [node name="BeatSpawner2" parent="Sprite/Beats" index="1" instance=ExtResource( 3 )]
 
-position = Vector2( 283, 0 )
+position = Vector2( 302, 0 )
 one_chance_on = 3
 tick_time = 0.75
 
 [node name="BeatSpawner3" parent="Sprite/Beats" index="2" instance=ExtResource( 3 )]
 
-position = Vector2( 455, 0 )
+position = Vector2( 466, 0 )
 one_chance_on = 4
 tick_time = 0.5
 
@@ -73,7 +74,6 @@ tick_time = 0.5
 
 [node name="Chord0" type="Area2D" parent="Sprite/Chords" index="0"]
 
-editor/display_folded = true
 position = Vector2( 112.987, 309.783 )
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
@@ -88,17 +88,23 @@ __meta__ = {
 
 [node name="Shape" type="CollisionShape2D" parent="Sprite/Chords/Chord0" index="0"]
 
-position = Vector2( 1, 1 )
+position = Vector2( 18, 10 )
 shape = SubResource( 1 )
 
-[node name="Pressed" type="Sprite" parent="Sprite/Chords/Chord0" index="1"]
+[node name="Pressed_KO" type="Sprite" parent="Sprite/Chords/Chord0" index="1"]
 
 visible = false
+position = Vector2( 18, 11 )
 texture = ExtResource( 4 )
+
+[node name="Pressed_OK" type="Sprite" parent="Sprite/Chords/Chord0" index="2"]
+
+visible = false
+position = Vector2( 18, 11 )
+texture = ExtResource( 5 )
 
 [node name="Chord1" type="Area2D" parent="Sprite/Chords" index="1"]
 
-editor/display_folded = true
 position = Vector2( 281.987, 309.783 )
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
@@ -113,17 +119,23 @@ __meta__ = {
 
 [node name="Shape" type="CollisionShape2D" parent="Sprite/Chords/Chord1" index="0"]
 
-position = Vector2( 1, 1 )
+position = Vector2( 16, 10 )
 shape = SubResource( 1 )
 
-[node name="Pressed" type="Sprite" parent="Sprite/Chords/Chord1" index="1"]
+[node name="Pressed_KO" type="Sprite" parent="Sprite/Chords/Chord1" index="1"]
 
 visible = false
+position = Vector2( 16, 10 )
 texture = ExtResource( 4 )
+
+[node name="Pressed_OK" type="Sprite" parent="Sprite/Chords/Chord1" index="2"]
+
+visible = false
+position = Vector2( 16, 10 )
+texture = ExtResource( 5 )
 
 [node name="Chord2" type="Area2D" parent="Sprite/Chords" index="2"]
 
-editor/display_folded = true
 position = Vector2( 456.987, 309.783 )
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
@@ -138,23 +150,22 @@ __meta__ = {
 
 [node name="Shape" type="CollisionShape2D" parent="Sprite/Chords/Chord2" index="0"]
 
-position = Vector2( 1, 1 )
+position = Vector2( 8, 10 )
 shape = SubResource( 1 )
 
-[node name="Pressed" type="Sprite" parent="Sprite/Chords/Chord2" index="1"]
+[node name="Pressed_KO" type="Sprite" parent="Sprite/Chords/Chord2" index="1"]
 
 visible = false
+position = Vector2( 8, 10 )
 texture = ExtResource( 4 )
 
+[node name="Pressed_OK" type="Sprite" parent="Sprite/Chords/Chord2" index="2"]
+
+visible = false
+position = Vector2( 8, 10 )
+texture = ExtResource( 5 )
+
 [node name="NoHitChord" type="AudioStreamPlayer" parent="Sprite/Chords" index="3"]
-
-stream = ExtResource( 5 )
-volume_db = 0.0
-autoplay = false
-mix_target = 0
-bus = "Master"
-
-[node name="HitChordBeat" type="AudioStreamPlayer" parent="Sprite/Chords" index="4"]
 
 stream = ExtResource( 6 )
 volume_db = 0.0
@@ -162,7 +173,7 @@ autoplay = false
 mix_target = 0
 bus = "Master"
 
-[node name="MissedChordBeat" type="AudioStreamPlayer" parent="Sprite/Chords" index="5"]
+[node name="HitChordBeat" type="AudioStreamPlayer" parent="Sprite/Chords" index="4"]
 
 stream = ExtResource( 7 )
 volume_db = 0.0
@@ -170,9 +181,17 @@ autoplay = false
 mix_target = 0
 bus = "Master"
 
-[node name="Music" type="AudioStreamPlayer" parent="." index="1"]
+[node name="MissedChordBeat" type="AudioStreamPlayer" parent="Sprite/Chords" index="5"]
 
 stream = ExtResource( 8 )
+volume_db = 0.0
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+[node name="Music" type="AudioStreamPlayer" parent="." index="1"]
+
+stream = ExtResource( 9 )
 volume_db = 0.0
 autoplay = false
 mix_target = 0

@@ -24,23 +24,23 @@ func _input(event):
 	if not active: return
 	
 	if Input.is_action_just_pressed("play_chord_0"):
-		Chord0.get_node("Pressed").show()
-		check_chord("chord0")
+		check_chord("chord0", Chord0)
 	
 	elif Input.is_action_just_released("play_chord_0"):
-		Chord0.get_node("Pressed").hide()
+		Chord0.get_node("Pressed_KO").hide()
+		Chord0.get_node("Pressed_OK").hide()
 	
 	if Input.is_action_just_pressed("play_chord_1"):
-		Chord1.get_node("Pressed").show()
-		check_chord("chord1")
+		check_chord("chord1", Chord1)
 	elif Input.is_action_just_released("play_chord_1"):
-		Chord1.get_node("Pressed").hide()
+		Chord1.get_node("Pressed_KO").hide()
+		Chord1.get_node("Pressed_OK").hide()
 	
 	if Input.is_action_just_pressed("play_chord_2"):
-		Chord2.get_node("Pressed").show()
-		check_chord("chord2")
+		check_chord("chord2", Chord2)
 	elif Input.is_action_just_released("play_chord_2"):
-		Chord2.get_node("Pressed").hide()
+		Chord2.get_node("Pressed_KO").hide()
+		Chord2.get_node("Pressed_OK").hide()
 	
 	if Input.is_action_just_pressed("quit_guitar"):
 		stop_playing()
@@ -98,16 +98,17 @@ func stop_playing():
 
 ### Check chord if beat on it
 
-func check_chord(chord):
-	var beat = has_beat[chord]
+func check_chord(chord_type, chord):
+	var beat = has_beat[chord_type]
 	if (beat != null):
+		chord.get_node("Pressed_OK").show()
 		Chords.get_node("HitChordBeat").play()
 		beat.pressed = true
 		beat.hide()
 		emit_signal("succeed_beat")
 	else:
 		Chords.get_node("NoHitChord").play()
-		print("nothing beat")
+		chord.get_node("Pressed_KO").show()
 
 ### Connect chords beat
 

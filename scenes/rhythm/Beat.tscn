@@ -6,7 +6,7 @@
 [sub_resource type="CircleShape2D" id=1]
 
 custom_solver_bias = 0.0
-radius = 28.0507
+radius = 34.2708
 
 [node name="Beat" type="KinematicBody2D"]
 
