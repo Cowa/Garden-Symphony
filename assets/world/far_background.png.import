@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ground.png-ed83d48c31b88f8fd50cd32ad89572f0.stex"
+path="res://.import/far_background.png-465cfee78be1bf96d48966f80a79a308.stex"
 
 [deps]
 
-source_file="res://assets/world/ground.png"
-source_md5="d952928b7f5fcb0db1408f8663fea51f"
+source_file="res://assets/world/far_background.png"
+source_md5="6f9eb942aa91d4dfe05446b4deb44376"
 
-dest_files=[ "res://.import/ground.png-ed83d48c31b88f8fd50cd32ad89572f0.stex" ]
-dest_md5="38453bee275fae898d882d04d68c2dc4"
+dest_files=[ "res://.import/far_background.png-465cfee78be1bf96d48966f80a79a308.stex" ]
+dest_md5="b6d675bf4a52a425577acac28a43047d"
 
 [params]
 

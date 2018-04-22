@@ -7,10 +7,10 @@ path="res://.import/missed_chord_beat.wav-30accf2317f4956992329fee48bedd2c.sampl
 [deps]
 
 source_file="res://assets/rhythm/missed_chord_beat.wav"
-source_md5="5fe239f26fad6a3a5c87552b1e5662fb"
+source_md5="e319f082ae083970f25eceb7f0671add"
 
 dest_files=[ "res://.import/missed_chord_beat.wav-30accf2317f4956992329fee48bedd2c.sample" ]
-dest_md5="ce45999b1cfa539d698a414f9b3357dc"
+dest_md5="e5a9867b3d58bd8b9b3104e380411ca6"
 
 [params]
 

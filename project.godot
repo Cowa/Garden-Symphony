@@ -61,5 +61,6 @@ quit_guitar=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_nam
 
 [rendering]
 
-environment/default_clear_color=Color( 0.215668, 0.38444, 0.746094, 1 )
+quality/filters/use_nearest_mipmap_filter=true
+environment/default_clear_color=Color( 0.847059, 0.933333, 0.984314, 1 )
 environment/default_environment="res://default_env.tres"

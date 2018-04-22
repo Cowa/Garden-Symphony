@@ -62,8 +62,11 @@ func _on_first_seed_planted(seed_type, position):
 	add_item(guitar)
 
 func _on_playing_guitar():
-	$UI/RhythmBox.playing()
 	$AnimationPlayer.play("open_rhythm_box")
+	$Delay.start()
+	yield($Delay, "timeout")
+	$Delay.stop()
+	$UI/RhythmBox.playing()
 
 func _on_succed_beat():
 	for seed_ in $Ground/PlantedSeeds.get_children():
