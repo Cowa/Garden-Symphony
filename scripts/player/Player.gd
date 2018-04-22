@@ -22,7 +22,9 @@ const UP_DIRECTION = Vector2(0, -1)
 # Motion and state
 
 var motion = Vector2(0, 0)
-var facing = RIGHT_DIRECTION
+var facing = Vector2(0, 0)
+
+var walking = false
 
 var state = {
 	"has_guitar": false,
@@ -50,12 +52,25 @@ func _input(event):
 	
 	if Input.is_action_pressed("ui_right"):
 		motion.x = SPEED
+		
+		if walking == false:
+			if $AnimationPlayer.current_animation != "walking_right":
+				$AnimationPlayer.play("walking_right")
 		facing = RIGHT_DIRECTION
+		walking = true
+		
 	elif Input.is_action_pressed("ui_left"):
 		motion.x = -SPEED
+		
+		if walking == false:
+			if $AnimationPlayer.current_animation != "walking_left":
+				$AnimationPlayer.play("walking_left")
 		facing = LEFT_DIRECTION
+		walking = true
 	else:
+		walking = false
 		motion.x = 0
+		$AnimationPlayer.play("setup")
 	
 	if is_on_floor():
 		if Input.is_action_pressed("ui_up"):
