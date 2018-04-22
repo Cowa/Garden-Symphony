@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ground.png-ed83d48c31b88f8fd50cd32ad89572f0.stex"
+path="res://.import/flower.png-854662327b52319f0e671fdafa5d4407.stex"
 
 [deps]
 
-source_file="res://assets/world/ground.png"
-source_md5="838708404b10c80051e56ecebdce3556"
+source_file="res://assets/items/seeds/flower.png"
+source_md5="092675477667daa835b8118655555642"
 
-dest_files=[ "res://.import/ground.png-ed83d48c31b88f8fd50cd32ad89572f0.stex" ]
-dest_md5="b314f250d497542c97efba0dda868bd1"
+dest_files=[ "res://.import/flower.png-854662327b52319f0e671fdafa5d4407.stex" ]
+dest_md5="abab5d27f0ab0112618e505875c7f250"
 
 [params]
 

@@ -33,7 +33,7 @@ func _on_max_growing():
 
 func reward_position():
 	randomize()
-	return get_global_position() + Vector2(rand_range(-10, 50), 0)
+	return get_global_position() + Vector2(rand_range(-10, 50), -20)
 
 func seed_rewards():
 	return []

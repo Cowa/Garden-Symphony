@@ -23,6 +23,7 @@ func _on_tick():
 		state.growing = GROWING_STATE.two
 		# Last growing state
 		$Tick.queue_free()
+		yield($GrowingState/Animation, "animation_finished")
 		_on_max_growing()
 
 func seed_rewards():

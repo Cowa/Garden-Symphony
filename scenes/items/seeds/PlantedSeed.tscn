@@ -21,7 +21,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0.156863 ) ]
 }
 
-[node name="PlantedSeed" type="Node2D"]
+[node name="PlantedSeed" type="Node2D" index="0"]
 
 script = ExtResource( 1 )
 
@@ -33,7 +33,7 @@ _sections_unfolded = [ "Offset", "Visibility" ]
 [node name="Tick" type="Timer" parent="." index="1"]
 
 process_mode = 1
-wait_time = 30.0
+wait_time = 0.5
 one_shot = false
 autostart = true
 
