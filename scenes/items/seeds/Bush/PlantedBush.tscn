@@ -27,4 +27,9 @@ offset = Vector2( -5, -59 )
 texture = ExtResource( 5 )
 offset = Vector2( -11, -80 )
 
+[node name="Particles" parent="." index="4"]
+
+amount = 3
+lifetime = 2.0
+
 

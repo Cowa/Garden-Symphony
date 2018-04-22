@@ -10,7 +10,8 @@ const BUSH_SEEDS = preload("res://scenes/items/seeds/bush/BushSeed.tscn")
 
 var state = {
 	"tick": 0,
-	"growing": INITIAL_GROWING_STATE
+	"growing": INITIAL_GROWING_STATE,
+	"max_reached": false,
 }
 
 func _ready():
@@ -20,9 +21,13 @@ func _ready():
 
 func _on_tick():
 	# Grow seed on tick
+	if state.max_reached: return
+	
+	$Particles.emitting = true
 	state.tick += 1
 
 func _on_max_growing():
+	state.max_reached = true
 	var rewards = []
 	for reward in seed_rewards():
 		var current

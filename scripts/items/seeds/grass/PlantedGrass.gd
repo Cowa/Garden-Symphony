@@ -12,13 +12,15 @@ func _ready():
 func _on_tick():
 	._on_tick()
 	
-	if state.tick == 2:
+	if state.max_reached: return
+	
+	if state.tick == 10:
 		$GrowingState/Animation.play("grow_to_0")
 		state.growing = GROWING_STATE.zero
-	elif state.tick == 5:
+	elif state.tick == 20:
 		$GrowingState/Animation.play("grow_to_1")
 		state.growing = GROWING_STATE.one
-	elif state.tick == 10:
+	elif state.tick == 30:
 		$GrowingState/Animation.play("grow_to_2")
 		state.growing = GROWING_STATE.two
 		# Last growing state

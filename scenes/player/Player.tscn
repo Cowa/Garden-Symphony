@@ -121,7 +121,7 @@ tracks/1/keys = {
 "values": [ 0.0, 5.0, 0.0 ]
 }
 
-[node name="Player" type="KinematicBody2D" index="0"]
+[node name="Player" type="KinematicBody2D"]
 
 position = Vector2( 96, 96 )
 input_pickable = false
@@ -205,7 +205,7 @@ blend_times = [  ]
 
 [node name="LeftPosition" type="Position2D" parent="PlantIndicator" index="2"]
 
-position = Vector2( -106.007, -9.84987 )
+position = Vector2( -107.007, -9.84987 )
 
 [node name="RightPosition" type="Position2D" parent="PlantIndicator" index="3"]
 
