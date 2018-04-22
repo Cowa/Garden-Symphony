@@ -11,7 +11,7 @@ signal play_guitar
 # Constant stuff
 
 const GRAVITY = 30
-const SPEED = 250
+const SPEED = 150
 const JUMP = -400
 const MAX_FALL_VEL = 400
 const LEFT_DIRECTION = Vector2(-1, 0)
@@ -100,6 +100,7 @@ func picked_seed(seed_):
 	match seed_.seed_type:
 		"Grass": picked_grass_seed(seed_)
 		"Flower": picked_flower_seed(seed_)
+		"Bush": picked_bush_seed(seed_)
 		"Abstract": print("Picked abstract seed, do nothing")
 		_: print("Unknown seed...")
 
@@ -108,6 +109,9 @@ func picked_grass_seed(seed_):
 
 func picked_flower_seed(seed_):
 	increment_seed("flower")
+
+func picked_bush_seed(seed_):
+	increment_seed("bush")
 
 func picked_guitar():
 	state.has_guitar = true

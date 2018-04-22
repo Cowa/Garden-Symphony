@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/components.svg-c65213fc5e4022a59b2580ff9c2ff877.stex"
+path="res://.import/bush_grow_1.png-91c0bac2618234d65d8cd2a0fa54c7a6.stex"
 
 [deps]
 
-source_file="res://assets/svg/components.svg"
-source_md5="12d846148ccd06104ed649f2bdfedbb2"
+source_file="res://assets/items/seeds/bush_grow_1.png"
+source_md5="d7579eba4c437224d089d4a59ec53e43"
 
-dest_files=[ "res://.import/components.svg-c65213fc5e4022a59b2580ff9c2ff877.stex" ]
-dest_md5="2dadf925a66ba30c73c10c8cfa4b30ad"
+dest_files=[ "res://.import/bush_grow_1.png-91c0bac2618234d65d8cd2a0fa54c7a6.stex" ]
+dest_md5="0f434cf243ed9ca796f20f1e0d487bc8"
 
 [params]
 

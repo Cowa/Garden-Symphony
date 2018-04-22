@@ -90,7 +90,7 @@ tracks/1/keys = {
 "values": [ 1 ]
 }
 
-[node name="World" type="Node" index="0"]
+[node name="World" type="Node"]
 
 script = ExtResource( 1 )
 
