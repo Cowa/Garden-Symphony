@@ -10,6 +10,9 @@
 [node name="PlantedFlower" instance=ExtResource( 1 )]
 
 script = ExtResource( 2 )
+tick_to_0 = 10
+tick_to_1 = 20
+tick_to_2 = 35
 
 [node name="Seed" parent="." index="0"]
 

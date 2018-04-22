@@ -160,6 +160,9 @@ tracks/2/keys = {
 z_index = 1
 script = ExtResource( 2 )
 _sections_unfolded = [ "Transform", "Z Index" ]
+tick_to_0 = 2
+tick_to_1 = 5
+tick_to_2 = 10
 
 [node name="Seed" parent="." index="0"]
 

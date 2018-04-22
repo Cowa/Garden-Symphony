@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="1439.6154"
-     inkscape:cy="295.6638"
+     inkscape:zoom="0.35"
+     inkscape:cx="523.92143"
+     inkscape:cy="324.0631"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer16"
      showgrid="false"
      inkscape:measure-start="2058.57,625.714"
      inkscape:measure-end="2058.57,617.143"
@@ -102,6 +102,15 @@
        inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\world\far_background.png"
        inkscape:export-xdpi="54"
        inkscape:export-ydpi="54" />
+    <circle
+       style="opacity:1;fill:#ffe680;fill-opacity:1;stroke:none;stroke-width:1.89999998;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path7251"
+       cx="41.694046"
+       cy="27.871647"
+       r="21.381561"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\world\far_background.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -136,7 +145,8 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="ground"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="opacity:1;fill:#c7afcc;fill-opacity:1;stroke:none;stroke-width:5.53458977;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4543"
@@ -1927,7 +1937,7 @@
        inkscape:export-ydpi="54"
        r="23.264868" />
     <circle
-       style="opacity:1;fill:#efec1d;fill-opacity:1;stroke:#dedb0e;stroke-width:3.67578602;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffe680;fill-opacity:1;stroke:#f1d04a;stroke-width:3.67578602;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path6809-1-0"
        cx="509.00632"
        cy="-75.980469"
@@ -2006,4 +2016,52 @@
            y="298.23398"
            style="fill:#edb455;fill-opacity:1" /></flowRegion><flowPara
          id="flowPara7247">3</flowPara></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer16"
+     inkscape:label="guitar"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.78391266;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect7254"
+       width="11.560699"
+       height="15.861568"
+       x="59.782307"
+       y="193.73143"
+       rx="4.7790294"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\guitar.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#a388ab;fill-opacity:1;stroke:none;stroke-width:1.55165672;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect7256"
+       width="3.6231987"
+       height="14.956921"
+       x="63.717285"
+       y="182.96457"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\guitar.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <ellipse
+       style="opacity:1;fill:#5e4965;fill-opacity:1;stroke:none;stroke-width:2.56416345;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path7258"
+       cx="65.643288"
+       cy="200.09261"
+       rx="2.9897058"
+       ry="3.1011727"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\guitar.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:3.19007039;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect7260"
+       width="4.8103967"
+       height="6.3733611"
+       x="63.099224"
+       y="177.99437"
+       rx="1"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\guitar.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+  </g>
 </svg>

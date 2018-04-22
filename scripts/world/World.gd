@@ -28,7 +28,6 @@ func _ready():
 	
 	$UI/RhythmBox.connect("succeed_beat", self, "_on_succed_beat")
 	$UI/RhythmBox.connect("quit_guitar", self, "_on_quit_guitar")
-	
 
 func _physics_process(delta):
 	if Input.is_action_pressed("ui_reload"):

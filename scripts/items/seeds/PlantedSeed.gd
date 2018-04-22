@@ -15,10 +15,20 @@ var state = {
 	"max_reached": false,
 }
 
+export var tick_to_0 = 2
+export var tick_to_1 = 5
+export var tick_to_2 = 10
+
 func _ready():
 	$Tick.connect("timeout", self, "_on_tick")
 	# Directly play planted animation
 	$AnimationPlanted.play("planted")
+
+const GROWING_STATE = {
+	"zero": 0,
+	"one": 1,
+	"two": 2
+}
 
 func _on_tick():
 	# Grow seed on tick
@@ -26,6 +36,22 @@ func _on_tick():
 	
 	$Particles.emitting = true
 	state.tick += 1
+	
+	if state.max_reached: return
+	
+	if state.tick == tick_to_0:
+		$GrowingState/Animation.play("grow_to_0")
+		state.growing = GROWING_STATE.zero
+	elif state.tick == tick_to_1:
+		$GrowingState/Animation.play("grow_to_1")
+		state.growing = GROWING_STATE.one
+	elif state.tick == tick_to_2:
+		$GrowingState/Animation.play("grow_to_2")
+		state.growing = GROWING_STATE.two
+		# Last growing state
+		$Tick.queue_free()
+		yield($GrowingState/Animation, "animation_finished")
+		_on_max_growing()
 
 func _on_max_growing():
 	state.max_reached = true
@@ -51,8 +77,3 @@ func reward_position():
 
 func seed_rewards():
 	return []
-
-#func _process(delta):
-#	# Called every frame. Delta is time since last frame.
-#	# Update game logic here.
-#	pass

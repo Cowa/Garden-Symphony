@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://scripts/rhythm/RhythmBox.gd" type="Script" id=1]
 [ext_resource path="res://assets/rhythm/rhythmbox.png" type="Texture" id=2]
@@ -10,10 +10,20 @@
 [ext_resource path="res://assets/rhythm/missed_chord_beat.wav" type="AudioStream" id=8]
 [ext_resource path="res://assets/rhythm/song.ogg" type="AudioStream" id=9]
 
-[sub_resource type="CircleShape2D" id=1]
+[sub_resource type="RectangleShape2D" id=3]
 
 custom_solver_bias = 0.0
-radius = 44.2374
+extents = Vector2( 40.2922, 10.2957 )
+
+[sub_resource type="RectangleShape2D" id=4]
+
+custom_solver_bias = 0.0
+extents = Vector2( 34.8184, 10 )
+
+[sub_resource type="RectangleShape2D" id=5]
+
+custom_solver_bias = 0.0
+extents = Vector2( 37.2668, 10 )
 
 [sub_resource type="Animation" id=2]
 
@@ -89,7 +99,7 @@ __meta__ = {
 [node name="Shape" type="CollisionShape2D" parent="Sprite/Chords/Chord0" index="0"]
 
 position = Vector2( 18, 10 )
-shape = SubResource( 1 )
+shape = SubResource( 3 )
 
 [node name="Pressed_KO" type="Sprite" parent="Sprite/Chords/Chord0" index="1"]
 
@@ -120,7 +130,7 @@ __meta__ = {
 [node name="Shape" type="CollisionShape2D" parent="Sprite/Chords/Chord1" index="0"]
 
 position = Vector2( 16, 10 )
-shape = SubResource( 1 )
+shape = SubResource( 4 )
 
 [node name="Pressed_KO" type="Sprite" parent="Sprite/Chords/Chord1" index="1"]
 
@@ -151,7 +161,7 @@ __meta__ = {
 [node name="Shape" type="CollisionShape2D" parent="Sprite/Chords/Chord2" index="0"]
 
 position = Vector2( 8, 10 )
-shape = SubResource( 1 )
+shape = SubResource( 5 )
 
 [node name="Pressed_KO" type="Sprite" parent="Sprite/Chords/Chord2" index="1"]
 

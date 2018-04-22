@@ -277,7 +277,7 @@ scroll_ignore_camera_zoom = true
 
 [node name="FarBackground" type="ParallaxLayer" parent="ParallaxBackground" index="0"]
 
-position = Vector2( 0, -101 )
+position = Vector2( -127, -101 )
 motion_scale = Vector2( 0.25, 0.25 )
 motion_offset = Vector2( 0, 0 )
 motion_mirroring = Vector2( 0, 0 )
