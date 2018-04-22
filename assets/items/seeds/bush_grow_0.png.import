@@ -7,10 +7,10 @@ path="res://.import/bush_grow_0.png-f297aa13d9f73a18473820c902424cba.stex"
 [deps]
 
 source_file="res://assets/items/seeds/bush_grow_0.png"
-source_md5="bf8013b0caf1a9e41aa3d73df10f64dc"
+source_md5="8bae2fda5e51d14b23b96b27e348483a"
 
 dest_files=[ "res://.import/bush_grow_0.png-f297aa13d9f73a18473820c902424cba.stex" ]
-dest_md5="610ea4f8482ceed15e61ed78bc49148d"
+dest_md5="3385c08aad28b6d8f769dcd37456ff27"
 
 [params]
 

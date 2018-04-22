@@ -7,10 +7,10 @@ path="res://.import/plant_indicator.png-730c8eda19c4532d933e251658fd15da.stex"
 [deps]
 
 source_file="res://assets/player/plant_indicator.png"
-source_md5="7383ff293697afd7d06195240791cdce"
+source_md5="ff1a8ae9f11ba297d210d4254dd1f7ca"
 
 dest_files=[ "res://.import/plant_indicator.png-730c8eda19c4532d933e251658fd15da.stex" ]
-dest_md5="58cb6e6409bbd713ec82500dbb22e8d1"
+dest_md5="b107f54878232e1e5c2f57e34105d52b"
 
 [params]
 

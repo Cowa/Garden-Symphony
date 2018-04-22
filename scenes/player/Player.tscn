@@ -12,7 +12,7 @@ extents = Vector2( 30.9324, 55.3019 )
 [sub_resource type="Animation" id=2]
 
 resource_name = "glowing"
-length = 1.0
+length = 2.0
 loop = true
 step = 0.1
 tracks/0/type = "value"
@@ -22,7 +22,7 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.5, 1 ),
+"times": PoolRealArray( 0, 1, 2 ),
 "transitions": PoolRealArray( 1, 1, 1 ),
 "update": 0,
 "values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0.326 ), Color( 1, 1, 1, 1 ) ]
@@ -133,8 +133,6 @@ _sections_unfolded = [ "Transform" ]
 
 [node name="Sprite" type="Sprite" parent="." index="0"]
 
-position = Vector2( 0.812563, -4.87538 )
-rotation = -0.0283638
 texture = ExtResource( 2 )
 _sections_unfolded = [ "Offset", "Transform" ]
 
@@ -183,15 +181,13 @@ _sections_unfolded = [ "Transform", "Visibility" ]
 
 [node name="PlantIndicator" type="Node2D" parent="." index="4"]
 
-editor/display_folded = true
-visible = false
 position = Vector2( 46, 60 )
 z_index = 1
 _sections_unfolded = [ "Transform", "Z Index" ]
 
 [node name="Sprite" type="Sprite" parent="PlantIndicator" index="0"]
 
-modulate = Color( 1, 1, 1, 0.852277 )
+modulate = Color( 1, 1, 1, 0.326 )
 position = Vector2( -15.6906, -7.55475 )
 texture = ExtResource( 3 )
 centered = false
@@ -209,11 +205,11 @@ blend_times = [  ]
 
 [node name="LeftPosition" type="Position2D" parent="PlantIndicator" index="2"]
 
-position = Vector2( -106.007, -7.84987 )
+position = Vector2( -106.007, -9.84987 )
 
 [node name="RightPosition" type="Position2D" parent="PlantIndicator" index="3"]
 
-position = Vector2( -15.9478, -7.72803 )
+position = Vector2( -15.9478, -9.72803 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." index="5"]
 

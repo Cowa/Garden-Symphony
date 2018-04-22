@@ -174,7 +174,7 @@ _sections_unfolded = [ "Offset", "Transform", "Visibility" ]
 modulate = Color( 1, 1, 1, 0 )
 texture = ExtResource( 4 )
 centered = false
-offset = Vector2( 0, -11 )
+offset = Vector2( 0, -9 )
 _sections_unfolded = [ "Animation", "Offset", "Visibility" ]
 
 [node name="Grow1" type="Sprite" parent="GrowingState" index="1"]
@@ -182,14 +182,14 @@ _sections_unfolded = [ "Animation", "Offset", "Visibility" ]
 modulate = Color( 1, 1, 1, 0 )
 texture = ExtResource( 5 )
 centered = false
-offset = Vector2( 0, -15 )
+offset = Vector2( 0, -13 )
 _sections_unfolded = [ "Animation", "Offset", "Visibility" ]
 
 [node name="Grow2" type="Sprite" parent="GrowingState" index="2"]
 
 texture = ExtResource( 6 )
 centered = false
-offset = Vector2( 0, -23 )
+offset = Vector2( 0, -21 )
 _sections_unfolded = [ "Animation", "Offset", "Visibility" ]
 
 [node name="Animation" type="AnimationPlayer" parent="GrowingState" index="3"]
