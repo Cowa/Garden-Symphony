@@ -78,7 +78,7 @@ _sections_unfolded = [ "Offset", "Visibility" ]
 [node name="Tick" type="Timer" parent="." index="1"]
 
 process_mode = 1
-wait_time = 30.0
+wait_time = 0.5
 one_shot = false
 autostart = true
 

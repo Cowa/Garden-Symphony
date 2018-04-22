@@ -116,6 +116,7 @@ func picked_seed(seed_):
 		"Grass": picked_grass_seed(seed_)
 		"Flower": picked_flower_seed(seed_)
 		"Bush": picked_bush_seed(seed_)
+		"Tree": picked_tree_seed(seed_)
 		"Abstract": print("Picked abstract seed, do nothing")
 		_: print("Unknown seed...")
 
@@ -127,6 +128,9 @@ func picked_flower_seed(seed_):
 
 func picked_bush_seed(seed_):
 	increment_seed("bush")
+
+func picked_tree_seed(seed_):
+	increment_seed("tree")
 
 func picked_guitar():
 	state.has_guitar = true

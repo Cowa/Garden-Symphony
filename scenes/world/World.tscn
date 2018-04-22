@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=2]
+[gd_scene load_steps=18 format=2]
 
 [ext_resource path="res://scripts/world/World.gd" type="Script" id=1]
 [ext_resource path="res://scenes/player/Player.tscn" type="PackedScene" id=2]
@@ -6,11 +6,12 @@
 [ext_resource path="res://scenes/items/seeds/grass/GrassSeed.tscn" type="PackedScene" id=4]
 [ext_resource path="res://scenes/items/seeds/flower/FlowerSeed.tscn" type="PackedScene" id=5]
 [ext_resource path="res://scenes/items/seeds/Bush/BushSeed.tscn" type="PackedScene" id=6]
-[ext_resource path="res://scenes/rhythm/RhythmBox.tscn" type="PackedScene" id=7]
-[ext_resource path="res://scenes/ui/Belt.tscn" type="PackedScene" id=8]
-[ext_resource path="res://assets/world/far_background.png" type="Texture" id=9]
-[ext_resource path="res://assets/world/background.png" type="Texture" id=10]
-[ext_resource path="res://assets/world/bird_ambient.ogg" type="AudioStream" id=11]
+[ext_resource path="res://scenes/items/seeds/tree/TreeSeed.tscn" type="PackedScene" id=7]
+[ext_resource path="res://scenes/rhythm/RhythmBox.tscn" type="PackedScene" id=8]
+[ext_resource path="res://scenes/ui/Belt.tscn" type="PackedScene" id=9]
+[ext_resource path="res://assets/world/far_background.png" type="Texture" id=10]
+[ext_resource path="res://assets/world/background.png" type="Texture" id=11]
+[ext_resource path="res://assets/world/bird_ambient.ogg" type="AudioStream" id=12]
 
 [sub_resource type="RectangleShape2D" id=1]
 
@@ -91,7 +92,7 @@ tracks/1/keys = {
 "values": [ 1 ]
 }
 
-[node name="World" type="Node"]
+[node name="World" type="Node" index="0"]
 
 script = ExtResource( 1 )
 
@@ -163,6 +164,10 @@ position = Vector2( 584.068, 508.542 )
 
 position = Vector2( 495.954, 478.331 )
 
+[node name="TreeSeed" parent="Ground/CollectableItems" index="3" instance=ExtResource( 7 )]
+
+position = Vector2( 527.851, 526.559 )
+
 [node name="Bounds" type="Node2D" parent="." index="2"]
 
 editor/display_folded = true
@@ -219,11 +224,11 @@ scale = Vector2( 1, 1 )
 transform = Transform2D( 1, 0, 0, 1, 0, 0 )
 _sections_unfolded = [ "Pause" ]
 
-[node name="RhythmBox" parent="UI" index="0" instance=ExtResource( 7 )]
+[node name="RhythmBox" parent="UI" index="0" instance=ExtResource( 8 )]
 
 position = Vector2( 352, -416 )
 
-[node name="Belt" parent="UI" index="1" instance=ExtResource( 8 )]
+[node name="Belt" parent="UI" index="1" instance=ExtResource( 9 )]
 
 position = Vector2( 224, 672 )
 _sections_unfolded = [ "Transform", "Z Index" ]
@@ -265,7 +270,6 @@ blend_times = [  ]
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="." index="8"]
 
-editor/display_folded = true
 layer = -1
 offset = Vector2( 0, 0 )
 rotation = 0.0
@@ -280,19 +284,15 @@ scroll_ignore_camera_zoom = true
 
 [node name="FarBackground" type="ParallaxLayer" parent="ParallaxBackground" index="0"]
 
-editor/display_folded = true
 motion_scale = Vector2( 0.25, 0.25 )
 motion_offset = Vector2( 0, 0 )
 motion_mirroring = Vector2( 0, 0 )
 _sections_unfolded = [ "Motion" ]
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/FarBackground" index="0"]
 
-position = Vector2( -262.382, 8.88422 )
-texture = ExtResource( 9 )
+position = Vector2( -170.328, -162.696 )
+texture = ExtResource( 10 )
 centered = false
 region_enabled = true
 region_rect = Rect2( 0, 0, 2560, 500 )
@@ -304,24 +304,18 @@ motion_scale = Vector2( 0.5, 0.5 )
 motion_offset = Vector2( 0, 0 )
 motion_mirroring = Vector2( 0, 0 )
 _sections_unfolded = [ "Motion" ]
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/FrontBackground" index="0"]
 
-position = Vector2( 389.792, 196.243 )
-texture = ExtResource( 10 )
+position = Vector2( 392.581, 107.557 )
+texture = ExtResource( 11 )
 centered = false
 region_rect = Rect2( 0, 0, 2560, 250 )
 _sections_unfolded = [ "Offset", "Region" ]
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="BirdAmbient" type="AudioStreamPlayer" parent="." index="9"]
 
-stream = ExtResource( 11 )
+stream = ExtResource( 12 )
 volume_db = 0.0
 autoplay = true
 mix_target = 0

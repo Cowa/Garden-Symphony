@@ -7,6 +7,7 @@ const INITIAL_GROWING_STATE = -1
 const GRASS_SEEDS = preload("res://scenes/items/seeds/grass/GrassSeed.tscn")
 const FLOWER_SEEDS = preload("res://scenes/items/seeds/flower/FlowerSeed.tscn")
 const BUSH_SEEDS = preload("res://scenes/items/seeds/bush/BushSeed.tscn")
+const TREE_SEEDS = preload("res://scenes/items/seeds/tree/TreeSeed.tscn")
 
 var state = {
 	"tick": 0,
@@ -38,6 +39,8 @@ func _on_max_growing():
 				current = {"instance": FLOWER_SEEDS.instance(), "position": reward_position()}
 			"bush":
 				current = {"instance": BUSH_SEEDS.instance(), "position": reward_position()}
+			"tree":
+				current = {"instance": TREE_SEEDS.instance(), "position": reward_position()}
 		rewards.push_back(current)
 	
 	emit_signal("seed_rewards", rewards)
