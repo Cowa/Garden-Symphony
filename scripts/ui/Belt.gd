@@ -24,6 +24,8 @@ func update_cursor(belt):
 		"tree": change_cursor_position($Tree.get_position())
 
 func change_cursor_position(position):
+	position.y += 55
+	
 	$Cursor/Tween.interpolate_property(
 		$Cursor, "position", $Cursor.get_position(), position,
 		0.2, Tween.TRANS_LINEAR, Tween.EASE_IN_OUT

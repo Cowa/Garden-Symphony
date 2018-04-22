@@ -7,7 +7,7 @@
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
-extents = Vector2( 30.9324, 55.3019 )
+extents = Vector2( 19.1571, 36.8373 )
 
 [sub_resource type="Animation" id=2]
 
@@ -121,7 +121,7 @@ tracks/1/keys = {
 "values": [ 0.0, 5.0, 0.0 ]
 }
 
-[node name="Player" type="KinematicBody2D" index="0"]
+[node name="Player" type="KinematicBody2D"]
 
 position = Vector2( 96, 96 )
 input_pickable = false
@@ -138,12 +138,8 @@ _sections_unfolded = [ "Offset", "Transform" ]
 
 [node name="CollisionShape" type="CollisionShape2D" parent="." index="1"]
 
-visible = false
 shape = SubResource( 1 )
 _sections_unfolded = [ "Transform" ]
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="Camera" type="Camera2D" parent="." index="2"]
 
@@ -151,7 +147,7 @@ anchor_mode = 1
 rotating = false
 current = true
 zoom = Vector2( 1, 1 )
-limit_left = 0
+limit_left = 2
 limit_top = -720
 limit_right = 2560
 limit_bottom = 720
@@ -205,11 +201,11 @@ blend_times = [  ]
 
 [node name="LeftPosition" type="Position2D" parent="PlantIndicator" index="2"]
 
-position = Vector2( -107.007, -9.84987 )
+position = Vector2( -97.007, -27.8499 )
 
 [node name="RightPosition" type="Position2D" parent="PlantIndicator" index="3"]
 
-position = Vector2( -15.9478, -9.72803 )
+position = Vector2( -27.9478, -27.728 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." index="5"]
 

@@ -25,14 +25,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="353.95552"
-     inkscape:cy="337.49716"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="581.93061"
+     inkscape:cy="330.01416"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="layer12"
      showgrid="false"
-     inkscape:measure-start="1845.71,-908.571"
-     inkscape:measure-end="697.143,-114.286"
+     inkscape:measure-start="90.728,248.571"
+     inkscape:measure-end="0,0"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -102,55 +102,13 @@
        inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\world\far_background.png"
        inkscape:export-xdpi="54"
        inkscape:export-ydpi="54" />
-    <path
-       sodipodi:type="star"
-       style="opacity:1;fill:#9fc7e0;fill-opacity:1;stroke:none;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path5440-1"
-       sodipodi:sides="3"
-       sodipodi:cx="71.059525"
-       sodipodi:cy="342.35712"
-       sodipodi:r1="258.60641"
-       sodipodi:r2="129.30322"
-       sodipodi:arg1="-1.5474088"
-       sodipodi:arg2="-0.50021123"
-       inkscape:flatsided="false"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="M 77.107138,83.821424 184.52068,280.34188 291.9342,476.86235 68.035715,471.62498 -155.86276,466.38758 -39.377823,275.10449 Z"
-       inkscape:transform-center-x="1.8623286"
-       inkscape:transform-center-y="-32.94243"
-       transform="matrix(0.61588859,0,0,0.53119901,939.9286,29.892314)"
-       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\world\far_background.png"
-       inkscape:export-xdpi="54"
-       inkscape:export-ydpi="54" />
-    <path
-       sodipodi:type="star"
-       style="opacity:1;fill:#9fc7e0;fill-opacity:1;stroke:none;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path5440-3-3"
-       sodipodi:sides="3"
-       sodipodi:cx="71.059525"
-       sodipodi:cy="342.35712"
-       sodipodi:r1="258.60641"
-       sodipodi:r2="129.30322"
-       sodipodi:arg1="-1.5474088"
-       sodipodi:arg2="-0.50021123"
-       inkscape:flatsided="false"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="M 77.107138,83.821424 184.52068,280.34188 291.9342,476.86235 68.035715,471.62498 -155.86276,466.38758 -39.377823,275.10449 Z"
-       inkscape:transform-center-x="1.8623286"
-       inkscape:transform-center-y="-32.94243"
-       transform="matrix(0.61588859,0,0,0.53119901,995.42588,25.864794)"
-       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\world\far_background.png"
-       inkscape:export-xdpi="54"
-       inkscape:export-ydpi="54" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="background"
-     sodipodi:insensitive="true"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="opacity:1;fill:#72ba8a;fill-opacity:1;stroke:none;stroke-width:0.62351263;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5387-7"
@@ -173,30 +131,6 @@
        inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\world\background.png"
        inkscape:export-xdpi="54"
        inkscape:export-ydpi="54" />
-    <rect
-       style="opacity:1;fill:#72ba8a;fill-opacity:1;stroke:none;stroke-width:0.62351263;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect5387-7-5"
-       width="110.97421"
-       height="151.56366"
-       x="-843.93451"
-       y="156.31136"
-       rx="52.961048"
-       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\world\background.png"
-       inkscape:export-xdpi="54"
-       inkscape:export-ydpi="54"
-       transform="scale(-1,1)" />
-    <rect
-       style="opacity:1;fill:#a0d0c2;fill-opacity:1;stroke:none;stroke-width:0.6915338;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect5387-4"
-       width="110.97421"
-       height="186.43672"
-       x="-748.08929"
-       y="113.87189"
-       rx="52.961048"
-       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\world\background.png"
-       inkscape:export-xdpi="54"
-       inkscape:export-ydpi="54"
-       transform="scale(-1,1)" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -305,8 +239,11 @@
        id="rect6040"
        width="18.107931"
        height="34.104782"
-       x="22.39529"
-       y="184.18169" />
+       x="26.20977"
+       y="184.1817"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\player\player.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1045,67 +982,572 @@
      inkscape:label="bush_grow_2"
      id="g5975"
      inkscape:groupmode="layer"
-     style="display:inline"
-     sodipodi:insensitive="true">
-    <g
-       id="g6102"
-       transform="matrix(1.5225494,0,0,1.351984,-108.61072,-74.874692)"
-       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\bush_grow_2.png"
+     style="display:inline">
+    <ellipse
+       style="display:inline;opacity:1;fill:#e97d7d;fill-opacity:1;stroke:none;stroke-width:3.81220841;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path6037-0-1"
+       cx="212.7924"
+       cy="191.44987"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\bush_grow_1.png"
        inkscape:export-xdpi="54"
-       inkscape:export-ydpi="54">
-      <circle
-         inkscape:export-ydpi="54"
-         inkscape:export-xdpi="54"
-         inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\bush_grow_1.png"
-         r="7.8508735"
-         cy="196.98796"
-         cx="211.09537"
-         id="path6037-0-1"
-         style="display:inline;opacity:1;fill:#e97d7d;fill-opacity:1;stroke:none;stroke-width:2.65708327;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.51621187;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect5898-1"
-         width="1.7018186"
-         height="17.415077"
-         x="209.99937"
-         y="199.4373"
-         inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\bush_grow_1.png"
-         inkscape:export-xdpi="54"
-         inkscape:export-ydpi="54" />
-      <rect
-         inkscape:export-ydpi="54"
-         inkscape:export-xdpi="54"
-         inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\bush_grow_1.png"
-         transform="rotate(-46.669207)"
-         y="286.46683"
-         x="-1.8843844"
-         height="4.3853865"
-         width="1.7018116"
-         id="rect6057-3"
-         style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:0.92665762;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <rect
-         inkscape:export-ydpi="54"
-         inkscape:export-xdpi="54"
-         inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\bush_grow_1.png"
-         transform="matrix(-0.68620939,-0.72740406,-0.72740406,0.68620939,0,0)"
-         y="-20.271164"
-         x="-291.39145"
-         height="4.3853865"
-         width="1.7018116"
-         id="rect6057-4-3"
-         style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:0.92665762;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
+       inkscape:export-ydpi="54"
+       rx="11.953342"
+       ry="10.614255" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\bush_grow_1.png"
+       y="194.76135"
+       x="211.1237"
+       height="23.544907"
+       width="2.5911028"
+       id="rect5898-1"
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:2.17536116;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.33418083;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6057-3"
+       width="2.4418077"
+       height="6.3357596"
+       x="-15.137961"
+       y="283.99966"
+       transform="matrix(0.72816206,-0.685405,0.76657789,0.64215133,0,0)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\bush_grow_1.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.33418083;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6057-4-3"
+       width="2.4418077"
+       height="6.3357596"
+       x="-290.05954"
+       y="-9.2249165"
+       transform="matrix(-0.72816206,-0.685405,-0.76657789,0.64215134,0,0)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\bush_grow_1.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer8"
-     inkscape:label="plant_indicator">
+     inkscape:label="plant_indicator"
+     sodipodi:insensitive="true">
     <rect
-       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.42900008;stroke-miterlimit:4;stroke-dasharray:1.42900008, 1.42900008000000001;stroke-opacity:1;stroke-dashoffset:0;stroke-linejoin:miter"
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:0.22477064;stroke:#ffffff;stroke-width:0.76856792;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:0.76856792, 0.76856792;stroke-dashoffset:0;stroke-opacity:1"
        id="rect5805-9"
-       width="13.669928"
-       height="11.581448"
-       x="101.78596"
-       y="218.99841" />
+       width="14.41189"
+       height="12.210053"
+       x="101.33682"
+       y="218.75093"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\player\plant_indicator.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="tree_seed"
+     sodipodi:insensitive="true">
+    <rect
+       style="display:inline;opacity:1;fill:#d35f5f;fill-opacity:1;stroke:none;stroke-width:1.56867611;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5805-8"
+       width="14.741071"
+       height="12.945684"
+       x="239.85379"
+       y="231.19333" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree.png"
+       style="display:inline;opacity:1;fill:#facc7e;fill-opacity:1;stroke:none;stroke-width:2.85137415;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5807-4"
+       width="4.5292344"
+       height="9.048665"
+       x="328.47308"
+       y="213.18883"
+       rx="26.07126"
+       transform="matrix(0.99486123,0.10124785,-0.37027759,0.92892115,0,0)" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree.png"
+       style="display:inline;opacity:1;fill:#facc7e;fill-opacity:1;stroke:none;stroke-width:2.6788578;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5809-6"
+       width="3.8753974"
+       height="9.3343496"
+       x="-352.56268"
+       y="-51.330757"
+       rx="22.307629"
+       transform="matrix(-0.80821161,-0.58889217,0.69357083,-0.72038844,0,0)" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree.png"
+       style="display:inline;opacity:1;fill:#facc7e;fill-opacity:1;stroke:none;stroke-width:3.27266979;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5811-0"
+       width="6.2206678"
+       height="8.6789551"
+       x="-0.38597962"
+       y="338.16217"
+       rx="35.807518"
+       transform="matrix(0.17790637,-0.98404742,0.70823602,0.70597573,0,0)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="tree_grow_0"
+     style="display:inline">
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#facc7e;fill-opacity:1;stroke:none;stroke-width:0.72899997;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.72899999, 0.72899999;stroke-dashoffset:0;stroke-opacity:1"
+       id="path6492"
+       sodipodi:sides="5"
+       sodipodi:cx="259.10269"
+       sodipodi:cy="190.03273"
+       sodipodi:r1="12.463188"
+       sodipodi:r2="6.2315941"
+       sodipodi:arg1="0.86052532"
+       sodipodi:arg2="1.4888439"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 267.22918,199.48213 -14.60218,1.19938 -5.653,-13.51688 11.10845,-9.55326 12.51838,7.61264 z"
+       inkscape:transform-center-x="1.4486255"
+       inkscape:transform-center-y="-1.3688759"
+       transform="matrix(0.86084704,0.07905296,-0.07905296,0.86084704,52.418618,10.920358)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_0.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_0.png"
+       y="198.67149"
+       x="259.86346"
+       height="19.719067"
+       width="1.6225524"
+       id="rect5898-1-7"
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.57537222;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:0.7553913;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6057-3-5"
+       width="1.3725076"
+       height="3.613349"
+       x="-32.509102"
+       y="336.76468"
+       transform="matrix(0.81122031,-0.58474063,0.84170354,0.53993996,0,0)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_0.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:0.75539136;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6057-4-3-4"
+       width="1.3725076"
+       height="3.613349"
+       x="-335.23981"
+       y="9.0379915"
+       transform="matrix(-0.81122031,-0.58474063,-0.84170353,0.53993997,0,0)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_0.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+  </g>
+  <g
+     inkscape:label="tree_grow_1"
+     id="g6502"
+     inkscape:groupmode="layer"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <path
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_1.png"
+       transform="matrix(0.86084704,0.07905296,-0.07905296,0.86084704,52.418618,10.920358)"
+       inkscape:transform-center-y="-1.3688759"
+       inkscape:transform-center-x="1.4486255"
+       d="m 267.22918,199.48213 -14.60218,1.19938 -5.653,-13.51688 11.10845,-9.55326 12.51838,7.61264 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="true"
+       sodipodi:arg2="1.4888439"
+       sodipodi:arg1="0.86052532"
+       sodipodi:r2="6.2315941"
+       sodipodi:r1="12.463188"
+       sodipodi:cy="190.03273"
+       sodipodi:cx="259.10269"
+       sodipodi:sides="5"
+       id="path6494"
+       style="opacity:1;fill:#facc7e;fill-opacity:1;stroke:none;stroke-width:0.72899997;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.72899999, 0.72899999;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:type="star" />
+    <rect
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.57537222;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6496"
+       width="1.6225524"
+       height="19.719067"
+       x="259.86346"
+       y="198.67149"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_1.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_1.png"
+       transform="matrix(0.81122031,-0.58474063,0.84170354,0.53993996,0,0)"
+       y="336.76468"
+       x="-32.509102"
+       height="3.613349"
+       width="1.3725076"
+       id="rect6498"
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:0.7553913;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_1.png"
+       transform="matrix(-0.81122031,-0.58474063,-0.84170353,0.53993997,0,0)"
+       y="9.0379915"
+       x="-335.23981"
+       height="3.613349"
+       width="1.3725076"
+       id="rect6500"
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:0.75539136;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_1.png"
+       transform="matrix(1.4845738,0.13633078,-0.13633078,1.4845738,-51.831211,-135.90114)"
+       inkscape:transform-center-y="-2.3606914"
+       inkscape:transform-center-x="2.4982196"
+       d="m 267.22918,199.48213 -14.60218,1.19938 -5.653,-13.51688 11.10845,-9.55326 12.51838,7.61264 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="true"
+       sodipodi:arg2="1.4888439"
+       sodipodi:arg1="0.86052532"
+       sodipodi:r2="6.2315941"
+       sodipodi:r1="12.463188"
+       sodipodi:cy="190.03273"
+       sodipodi:cx="259.10269"
+       sodipodi:sides="5"
+       id="path6494-9"
+       style="display:inline;opacity:1;fill:#facc7e;fill-opacity:1;stroke:none;stroke-width:0.72899997;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.72899999, 0.72899999;stroke-dashoffset:0;stroke-opacity:1"
+       sodipodi:type="star" />
+    <rect
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:3.11909652;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6496-8"
+       width="3.1540279"
+       height="39.765896"
+       x="305.0972"
+       y="178.31407"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_1.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_1.png"
+       transform="matrix(0.86995046,-0.49313913,0.89282451,0.45040469,0,0)"
+       y="377.55814"
+       x="-42.989754"
+       height="6.6217041"
+       width="2.4878595"
+       id="rect6498-8"
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.3767575;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_1.png"
+       transform="matrix(-0.86995046,-0.49313913,-0.89282451,0.45040471,0,0)"
+       y="14.08112"
+       x="-375.17389"
+       height="6.6217041"
+       width="2.4878595"
+       id="rect6500-6"
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.37675762;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_1.png"
+       transform="matrix(0.86995046,-0.49313913,0.89282452,0.45040469,0,0)"
+       y="368.19308"
+       x="-33.755459"
+       height="6.6217041"
+       width="2.4878595"
+       id="rect6498-8-9"
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.37675738;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_1.png"
+       transform="matrix(-0.86995046,-0.49313913,-0.89282451,0.45040471,0,0)"
+       y="5.1047955"
+       x="-365.58456"
+       height="6.6217041"
+       width="2.4878595"
+       id="rect6500-6-9"
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.3767575;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     style="display:inline"
+     inkscape:groupmode="layer"
+     id="g6650"
+     inkscape:label="tree_grow_2"
+     sodipodi:insensitive="true">
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#facc7e;fill-opacity:1;stroke:none;stroke-width:0.72899997;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.72899999, 0.72899999;stroke-dashoffset:0;stroke-opacity:1"
+       id="path6630"
+       sodipodi:sides="5"
+       sodipodi:cx="259.10269"
+       sodipodi:cy="190.03273"
+       sodipodi:r1="12.463188"
+       sodipodi:r2="6.2315941"
+       sodipodi:arg1="0.86052532"
+       sodipodi:arg2="1.4888439"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 267.22918,199.48213 -14.60218,1.19938 -5.653,-13.51688 11.10845,-9.55326 12.51838,7.61264 z"
+       inkscape:transform-center-x="1.4486255"
+       inkscape:transform-center-y="-1.3688759"
+       transform="matrix(0.86084704,0.07905296,-0.07905296,0.86084704,52.418618,10.920358)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_1.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_1.png"
+       y="198.67149"
+       x="259.86346"
+       height="19.719067"
+       width="1.6225524"
+       id="rect6632"
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.57537222;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:0.7553913;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6634"
+       width="1.3725076"
+       height="3.613349"
+       x="-32.509102"
+       y="336.76468"
+       transform="matrix(0.81122031,-0.58474063,0.84170354,0.53993996,0,0)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_1.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:0.75539136;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6636"
+       width="1.3725076"
+       height="3.613349"
+       x="-335.23981"
+       y="9.0379915"
+       transform="matrix(-0.81122031,-0.58474063,-0.84170353,0.53993997,0,0)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_1.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <path
+       sodipodi:type="star"
+       style="display:inline;opacity:1;fill:#facc7e;fill-opacity:1;stroke:none;stroke-width:0.72899997;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.72899999, 0.72899999;stroke-dashoffset:0;stroke-opacity:1"
+       id="path6638"
+       sodipodi:sides="5"
+       sodipodi:cx="259.10269"
+       sodipodi:cy="190.03273"
+       sodipodi:r1="12.463188"
+       sodipodi:r2="6.2315941"
+       sodipodi:arg1="0.86052532"
+       sodipodi:arg2="1.4888439"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 267.22918,199.48213 -14.60218,1.19938 -5.653,-13.51688 11.10845,-9.55326 12.51838,7.61264 z"
+       inkscape:transform-center-x="3.3376541"
+       inkscape:transform-center-y="-3.1539211"
+       transform="matrix(1.9834104,0.18213974,-0.18213974,1.9834104,-118.53603,-254.84352)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_2.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       inkscape:export-ydpi="54"
+       inkscape:export-xdpi="54"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_2.png"
+       y="160.22749"
+       x="358.32626"
+       height="57.85247"
+       width="4.2138233"
+       id="rect6640"
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:4.34850311;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.83936644;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6642"
+       width="3.3238134"
+       height="8.8466854"
+       x="-6.0576687"
+       y="399.15582"
+       transform="matrix(0.86995046,-0.49313913,0.89282451,0.45040469,0,0)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_2.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.83936656;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6644"
+       width="3.3238134"
+       height="8.8466854"
+       x="-396.5043"
+       y="-28.033543"
+       transform="matrix(-0.86995046,-0.49313913,-0.89282451,0.45040471,0,0)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_2.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.8393662;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6646"
+       width="3.3238134"
+       height="8.8466854"
+       x="4.0083275"
+       y="388.8569"
+       transform="matrix(0.86995046,-0.49313913,0.89282452,0.45040469,0,0)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_2.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.83936644;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6648"
+       width="3.3238134"
+       height="8.8466854"
+       x="-385.96396"
+       y="-37.813091"
+       transform="matrix(-0.86995046,-0.49313913,-0.89282451,0.45040471,0,0)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_2.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.41691232;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6646-9"
+       width="2.5604212"
+       height="6.8148355"
+       x="15.115138"
+       y="381.08163"
+       transform="matrix(0.86995046,-0.49313913,0.89282452,0.45040468,0,0)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_2.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="display:inline;opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.41691256;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6648-3"
+       width="2.5604212"
+       height="6.8148355"
+       x="-375.42346"
+       y="-46.278198"
+       transform="matrix(-0.86995046,-0.49313913,-0.89282451,0.45040471,0,0)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\items\seeds\tree_grow_2.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="cloud"
+     sodipodi:insensitive="true">
+    <rect
+       style="display:inline;opacity:1;fill:#facc7e;fill-opacity:1;stroke:none;stroke-width:0.72899997;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.729, 0.729;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6670"
+       width="94.078873"
+       height="22.45064"
+       x="58.793903"
+       y="10.98599"
+       rx="10"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\world\cloud.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer12"
+     inkscape:label="belt">
+    <rect
+       style="opacity:1;fill:#855f90;fill-opacity:1;stroke:none;stroke-width:1.18854868;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.18854875, 1.18854875000000004;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6689"
+       width="226.50572"
+       height="23.754026"
+       x="5.5965962"
+       y="249.659"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\ui\belt.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#facc7e;fill-opacity:1;stroke:none;stroke-width:0.84566307;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6691"
+       width="33.48444"
+       height="33.48444"
+       x="17.391066"
+       y="244.67628"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\ui\belt.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#facc7e;fill-opacity:1;stroke:none;stroke-width:0.84566307;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6691-4"
+       width="33.48444"
+       height="33.48444"
+       x="58.436443"
+       y="245.03464"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\ui\belt.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#facc7e;fill-opacity:1;stroke:none;stroke-width:0.84566307;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6691-3"
+       width="33.48444"
+       height="33.48444"
+       x="100.53394"
+       y="245.05954"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\ui\belt.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#facc7e;fill-opacity:1;stroke:none;stroke-width:0.84566307;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6691-4-1"
+       width="33.48444"
+       height="33.48444"
+       x="141.57932"
+       y="245.41789"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\ui\belt.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+    <rect
+       style="opacity:1;fill:#facc7e;fill-opacity:1;stroke:none;stroke-width:0.84566307;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect6691-4-1-9"
+       width="33.48444"
+       height="33.48444"
+       x="185.54831"
+       y="245.14787"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\ui\belt.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer13"
+     inkscape:label="selector_belt"
+     sodipodi:insensitive="true">
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#e97d7d;fill-opacity:1;stroke:none;stroke-width:1.02961278;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path6744"
+       sodipodi:sides="3"
+       sodipodi:cx="35.002266"
+       sodipodi:cy="-289.00861"
+       sodipodi:r1="8.0075951"
+       sodipodi:r2="4.003798"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 35.002266,-281.00101 -3.467391,-6.0057 -3.46739,-6.00569 6.934781,0 6.934781,0 -3.46739,6.00569 z"
+       inkscape:transform-center-y="-2.0019226"
+       transform="scale(1,-1)"
+       inkscape:export-filename="C:\Users\Brice\Documents\ldjam41\assets\ui\belt_selector.png"
+       inkscape:export-xdpi="54"
+       inkscape:export-ydpi="54" />
   </g>
 </svg>

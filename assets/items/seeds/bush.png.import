@@ -7,10 +7,10 @@ path="res://.import/bush.png-904df64a74719803d706972e09af79b2.stex"
 [deps]
 
 source_file="res://assets/items/seeds/bush.png"
-source_md5="def7edbc1bd99943f3068e8897b49f91"
+source_md5="bfb874d1ea8b3fd40a2dbdddb95e36d8"
 
 dest_files=[ "res://.import/bush.png-904df64a74719803d706972e09af79b2.stex" ]
-dest_md5="2723db253fd342f31108cd419f3bf512"
+dest_md5="ab35ed075161d1030b108bf98dbb6cf0"
 
 [params]
 

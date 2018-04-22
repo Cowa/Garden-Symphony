@@ -7,10 +7,10 @@ path="res://.import/flower.png-854662327b52319f0e671fdafa5d4407.stex"
 [deps]
 
 source_file="res://assets/items/seeds/flower.png"
-source_md5="2138d5901de8c6e2b6e1ec52a596a8d8"
+source_md5="077a6544d813917d40635bb95d76278d"
 
 dest_files=[ "res://.import/flower.png-854662327b52319f0e671fdafa5d4407.stex" ]
-dest_md5="f05a63c14d705522b2fde22c4a2dda6f"
+dest_md5="ae38ff7d8832d88bb5f94460349e4002"
 
 [params]
 
