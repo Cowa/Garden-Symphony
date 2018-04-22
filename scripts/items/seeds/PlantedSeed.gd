@@ -17,7 +17,6 @@ func _ready():
 	$AnimationPlanted.play("planted")
 
 func _on_tick():
-	# TICK DEFAULT TIMEOUT 3
 	# Grow seed on tick
 	state.tick += 1
 

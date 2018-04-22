@@ -12,6 +12,7 @@ func _ready():
 	$Player.connect("belt_cursor_changed", $UI/Belt, "update_cursor")
 	$Player.connect("picked_guitar", $UI/Belt, "toggle_guitar_slot")
 	$Player.connect("seed_planted", self, "_seed_planted")
+	$Player.connect("play_guitar", self, "_on_playing_guitar")
 	
 	# On first seed, "special" event (ONESHOT => only one tiùe)
 	$Player.connect("seed_planted", self, "_on_first_seed_planted", [], CONNECT_ONESHOT)
@@ -21,6 +22,10 @@ func _ready():
 		item.connect("pickup", $Player, "picked_item")
 	
 	$Tick.connect("timeout", self, "_on_tick")
+	
+	$UI/RhythmBox.connect("succeed_beat", self, "_on_succed_beat")
+	$UI/RhythmBox.connect("quit_guitar", self, "_on_quit_guitar")
+	
 
 func _physics_process(delta):
 	if Input.is_action_pressed("ui_reload"):
@@ -54,6 +59,17 @@ func _on_first_seed_planted(seed_type, position):
 	$Tween.start()
 	
 	add_item(guitar)
+
+func _on_playing_guitar():
+	$AnimationPlayer.play("open_rhythm_box")
+
+func _on_succed_beat():
+	for seed_ in $Ground/PlantedSeeds.get_children():
+		seed_._on_tick()
+
+func _on_quit_guitar():
+	$Player.state.playing_guitar = false
+	$AnimationPlayer.play("close_rhythm_box")
 
 func add_item(item):
 	item.connect("pickup", $Player, "picked_item")

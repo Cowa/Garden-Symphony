@@ -7,10 +7,10 @@ path="res://.import/ground.png-ed83d48c31b88f8fd50cd32ad89572f0.stex"
 [deps]
 
 source_file="res://assets/world/ground.png"
-source_md5="64bcef401d03259b8f792f47ce6da660"
+source_md5="054e160cf1b949ca8825b88025f37fa0"
 
 dest_files=[ "res://.import/ground.png-ed83d48c31b88f8fd50cd32ad89572f0.stex" ]
-dest_md5="10a047cc68301f40f11f8adda8376293"
+dest_md5="e70772bd3861bae9f25d7e78943ce5d2"
 
 [params]
 

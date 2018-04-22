@@ -6,6 +6,7 @@ signal seeds_changed
 signal seed_planted
 signal picked_guitar
 signal belt_cursor_changed
+signal play_guitar
 
 # Constant stuff
 
@@ -25,6 +26,7 @@ var facing = RIGHT_DIRECTION
 
 var state = {
 	"has_guitar": false,
+	"playing_guitar": false,
 	"seeds": {
 		"grass": 0,
 		"flower": 0,
@@ -43,6 +45,9 @@ func _ready():
 	pass
 
 func _input(event):
+	# If playing guitar, no input allowed here
+	if state.playing_guitar: return
+	
 	if Input.is_action_pressed("ui_right"):
 		motion.x = SPEED
 		facing = RIGHT_DIRECTION
@@ -65,6 +70,10 @@ func _input(event):
 	# Plant seeds! (if we can)
 	if can_plant() and Input.is_action_just_pressed("plant_seed"):
 		plant_seed()
+	
+	# Play guitar!
+	if guitar_is_selected() and Input.is_action_just_pressed("play_guitar"):
+		play_guitar()
 
 func _physics_process(delta):
 	# Movements
@@ -147,3 +156,10 @@ func plant_seed():
 	var seed_type = state.belt.items[state.belt.cursor]
 	decrement_seed(seed_type)
 	emit_signal("seed_planted", seed_type, $PlantIndicator/Sprite.get_global_position())
+
+func guitar_is_selected():
+	return state.belt.items[state.belt.cursor] == "guitar"
+
+func play_guitar():
+	emit_signal("play_guitar")
+	state.playing_guitar = true

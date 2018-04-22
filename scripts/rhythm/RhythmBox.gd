@@ -2,6 +2,7 @@ extends Node2D
 
 signal missed_beat
 signal succeed_beat
+signal quit_guitar
 
 onready var Chords = $Sprite/Chords
 onready var Chord0 = $Sprite/Chords/Chord0
@@ -34,6 +35,9 @@ func _input(event):
 		check_chord(Chord2)
 	elif Input.is_action_just_released("play_chord_2"):
 		Chord2.get_node("Pressed").hide()
+	
+	if Input.is_action_just_released("quit_guitar"):
+		emit_signal("quit_guitar")
 
 func _on_missed_beat():
 	$AnimationPlayer.play("missed_beat")

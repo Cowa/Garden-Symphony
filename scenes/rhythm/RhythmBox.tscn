@@ -21,7 +21,7 @@ length = 0.5
 loop = false
 step = 0.1
 tracks/0/type = "value"
-tracks/0/path = NodePath(".:position")
+tracks/0/path = NodePath("Sprite:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
@@ -30,30 +30,32 @@ tracks/0/keys = {
 "times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
 "update": 0,
-"values": [ Vector2( 0, 0 ), Vector2( -4.38907, 2.43839 ), Vector2( 4.38907, 3.41373 ), Vector2( -4.38904, 7.31512 ), Vector2( 3.9014, 0.975403 ), Vector2( 0, 0 ) ]
+"values": [ Vector2( 0, 0 ), Vector2( -6.33977, 3.90137 ), Vector2( 3.41368, 6.82739 ), Vector2( -5.36443, 0.487671 ), Vector2( -1.46306, 3.9014 ), Vector2( 0, 0 ) ]
 }
 
 [node name="RhythmBox" type="Node2D"]
 
+pause_mode = 1
 script = ExtResource( 1 )
-_sections_unfolded = [ "Transform" ]
-__meta__ = {
-"_edit_group_": true
-}
+_sections_unfolded = [ "Pause", "Transform" ]
 
 [node name="Sprite" type="Sprite" parent="." index="0"]
 
 texture = ExtResource( 2 )
 centered = false
-_sections_unfolded = [ "Offset" ]
+_sections_unfolded = [ "Offset", "Pause", "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Beats" type="Node2D" parent="Sprite" index="0"]
 
-editor/display_folded = true
+_sections_unfolded = [ "Pause" ]
 
 [node name="BeatSpawner" parent="Sprite/Beats" index="0" instance=ExtResource( 3 )]
 
 position = Vector2( 115, 0 )
+_sections_unfolded = [ "Pause" ]
 
 [node name="BeatSpawner2" parent="Sprite/Beats" index="1" instance=ExtResource( 3 )]
 
@@ -144,45 +146,37 @@ shape = SubResource( 1 )
 visible = false
 texture = ExtResource( 4 )
 
-[node name="NoHitChord" type="AudioStreamPlayer2D" parent="Sprite/Chords" index="3"]
+[node name="NoHitChord" type="AudioStreamPlayer" parent="Sprite/Chords" index="3"]
 
 stream = ExtResource( 5 )
 volume_db = 0.0
 autoplay = false
-max_distance = 2000.0
-attenuation = 1.0
+mix_target = 0
 bus = "Master"
-area_mask = 1
 
-[node name="HitChordBeat" type="AudioStreamPlayer2D" parent="Sprite/Chords" index="4"]
+[node name="HitChordBeat" type="AudioStreamPlayer" parent="Sprite/Chords" index="4"]
 
 stream = ExtResource( 6 )
 volume_db = 0.0
 autoplay = false
-max_distance = 2000.0
-attenuation = 1.0
+mix_target = 0
 bus = "Master"
-area_mask = 1
 
-[node name="MissedChordBeat" type="AudioStreamPlayer2D" parent="Sprite/Chords" index="5"]
+[node name="MissedChordBeat" type="AudioStreamPlayer" parent="Sprite/Chords" index="5"]
 
 stream = ExtResource( 7 )
 volume_db = 0.0
 autoplay = false
-max_distance = 2000.0
-attenuation = 1.0
+mix_target = 0
 bus = "Master"
-area_mask = 1
 
-[node name="Music" type="AudioStreamPlayer2D" parent="." index="1"]
+[node name="Music" type="AudioStreamPlayer" parent="." index="1"]
 
 stream = ExtResource( 8 )
 volume_db = 0.0
 autoplay = true
-max_distance = 2000.0
-attenuation = 1.0
+mix_target = 0
 bus = "Master"
-area_mask = 1
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." index="2"]
 
